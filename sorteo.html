@@ -43,14 +43,14 @@
       <section class="contacto overflow-hidden">
         <div class="container relative">
           <div
-            class="mx-auto overflow-hidden rounded-[20px] max-w-[860px] bg-[#F8E4CC] pt-[35px] px-[35px] md:pt-[60px] md:px-[80px] lg:pt-[100px] lg:px-[120px] relative bg-mask"
+            class="mx-auto overflow-hidden rounded-[20px] max-w-[860px] bg-[#F8E4CC] pt-[40px] px-[15px] md:pt-[60px] md:px-[80px] lg:pt-[100px] lg:px-[120px] relative bg-mask"
           >
             <div class="part1 relative">
               <div
                 class="flex flex-col lg:flex-row items-center justify-center gap-1 relative"
               >
                 <div
-                  class="absolute top-[-40px] left-[-25px] md:left-[45px] lg:left-[-35px]"
+                  class="absolute top-[-40px] left-[-20px] md:left-[45px] lg:left-[-35px]"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -58,6 +58,7 @@
                     height="49"
                     viewBox="0 0 48 49"
                     fill="none"
+                    class="h-[45px] md:h-auto w-auto"
                   >
                     <g clip-path="url(#clip0_2888_10911)">
                       <path
@@ -98,6 +99,7 @@
                     height="25"
                     viewBox="0 0 25 25"
                     fill="none"
+                    class="h-[25px] md:h-auto w-auto"
                   >
                     <g clip-path="url(#clip0_2888_10917)">
                       <path
@@ -170,7 +172,7 @@
               </p>
             </div>
             <div
-              class="part2 bg-orange p-[25px] md:p-[35px] lg:p-[50px] rounded-t-[20px] text-white"
+              class="part2 bg-orange p-[15px] md:p-[35px] lg:p-[50px] rounded-t-[20px] text-white"
             >
               <span
                 class="font-bree-regular font-bold text-[16px] lg:text-[24px]"
@@ -184,10 +186,11 @@
                   type="text"
                   name="nombre"
                   id="nombre"
-                  pattern="[A-Za-z]+"
+                  pattern="[A-Za-z\s]+"
                   class="input-custom"
                   placeholder="Nombres y Apellidos"
                   required
+                  oninput="validateInput(event)"
                 />
                 <div
                   class="flex flex-col md:flex-row gap-x-[25px] gap-y-[20px]"
@@ -340,6 +343,12 @@
         </p>
       </div>
     </footer>
+    <script>
+      function validateInput(event) {
+        const input = event.target;
+        input.value = input.value.replace(/[^A-Za-z\s]/g, "");
+      }
+    </script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/jquery.marquee.js"></script>
