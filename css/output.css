@@ -652,6 +652,10 @@ video {
   bottom: -100px;
 }
 
+.bottom-\[-50px\] {
+  bottom: -50px;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -676,6 +680,10 @@ video {
   left: -25px;
 }
 
+.left-\[-35px\] {
+  left: -35px;
+}
+
 .left-\[2\%\] {
   left: 2%;
 }
@@ -692,6 +700,10 @@ video {
   right: 0.5rem;
 }
 
+.right-3 {
+  right: 0.75rem;
+}
+
 .right-4 {
   right: 1rem;
 }
@@ -702,6 +714,14 @@ video {
 
 .right-\[-100vw\] {
   right: -100vw;
+}
+
+.right-\[-150px\] {
+  right: -150px;
+}
+
+.right-\[-160px\] {
+  right: -160px;
 }
 
 .right-\[2\%\] {
@@ -752,6 +772,22 @@ video {
   top: 30%;
 }
 
+.left-\[-10px\] {
+  left: -10px;
+}
+
+.left-\[10px\] {
+  left: 10px;
+}
+
+.left-\[-15px\] {
+  left: -15px;
+}
+
+.left-\[-20px\] {
+  left: -20px;
+}
+
 .\!z-\[99\] {
   z-index: 99 !important;
 }
@@ -789,6 +825,11 @@ video {
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.my-\[20px\] {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .my-\[35px\] {
@@ -1063,8 +1104,20 @@ video {
   height: calc(100dvh - 218px);
 }
 
+.h-auto {
+  height: auto;
+}
+
 .h-full {
   height: 100%;
+}
+
+.h-\[65px\] {
+  height: 65px;
+}
+
+.h-\[55px\] {
+  height: 55px;
 }
 
 .min-h-fit {
@@ -1104,6 +1157,10 @@ video {
   width: 1.25rem;
 }
 
+.w-64 {
+  width: 16rem;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -1136,12 +1193,20 @@ video {
   width: 40px;
 }
 
+.w-\[500px\] {
+  width: 500px;
+}
+
 .w-\[62px\] {
   width: 62px;
 }
 
 .w-\[95\%\] {
   width: 95%;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .w-full {
@@ -1218,6 +1283,10 @@ video {
   max-width: 70px;
 }
 
+.max-w-\[860px\] {
+  max-width: 860px;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -1235,6 +1304,10 @@ video {
 }
 
 .flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.shrink-0 {
   flex-shrink: 0;
 }
 
@@ -1299,6 +1372,12 @@ video {
 
 .resize {
   resize: both;
+}
+
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .grid-cols-2 {
@@ -1398,8 +1477,22 @@ video {
        column-gap: 1.5rem;
 }
 
+.gap-x-\[15px\] {
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+
+.gap-x-\[25px\] {
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+
 .gap-y-10 {
   row-gap: 2.5rem;
+}
+
+.gap-y-\[20px\] {
+  row-gap: 20px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1478,6 +1571,10 @@ video {
   text-wrap: nowrap;
 }
 
+.\!rounded-\[8px\] {
+  border-radius: 8px !important;
+}
+
 .rounded-\[20px\] {
   border-radius: 20px;
 }
@@ -1505,6 +1602,11 @@ video {
 .rounded-l-\[20px\] {
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+}
+
+.rounded-t-\[20px\] {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .rounded-bl-\[20px\] {
@@ -1612,6 +1714,15 @@ video {
   border-color: rgb(17 24 39 / var(--tw-border-opacity, 1));
 }
 
+.border-transparent {
+  border-color: transparent;
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
+}
+
 .border-b-\[\#FDE3C4\] {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(253 227 196 / var(--tw-border-opacity, 1));
@@ -1669,6 +1780,11 @@ video {
 .bg-\[\#E0F4E2\] {
   --tw-bg-opacity: 1;
   background-color: rgb(224 244 226 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#F8E4CC\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 228 204 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[\#FDE3C4\] {
@@ -1748,6 +1864,10 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
+.\!bg-repeat {
+  background-repeat: repeat !important;
+}
+
 .bg-repeat {
   background-repeat: repeat;
 }
@@ -1794,6 +1914,38 @@ video {
   padding: 1.5rem;
 }
 
+.p-\[35px\] {
+  padding: 35px;
+}
+
+.p-\[50px\] {
+  padding: 50px;
+}
+
+.p-\[25px\] {
+  padding: 25px;
+}
+
+.\!px-\[20px\] {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.\!px-\[65px\] {
+  padding-left: 65px !important;
+  padding-right: 65px !important;
+}
+
+.\!py-\[10px\] {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.\!py-\[15px\] {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+
 .px-0 {
   padding-left: 0px;
   padding-right: 0px;
@@ -1829,9 +1981,19 @@ video {
   padding-right: 10px;
 }
 
+.px-\[120px\] {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
 .px-\[20px\] {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.px-\[40px\] {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .py-1 {
@@ -1889,6 +2051,16 @@ video {
   padding-bottom: 8px;
 }
 
+.\!px-\[45px\] {
+  padding-left: 45px !important;
+  padding-right: 45px !important;
+}
+
+.px-\[35px\] {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -1937,12 +2109,20 @@ video {
   padding-top: 10px;
 }
 
+.pt-\[40px\] {
+  padding-top: 40px;
+}
+
 .pt-\[45px\] {
   padding-top: 45px;
 }
 
 .pt-\[50px\] {
   padding-top: 50px;
+}
+
+.pt-\[35px\] {
+  padding-top: 35px;
 }
 
 .text-left {
@@ -1971,6 +2151,18 @@ video {
 
 .font-gulya {
   font-family: fuente-gulya, sans-serif;
+}
+
+.\!text-\[20px\] {
+  font-size: 20px !important;
+}
+
+.\!text-\[28px\] {
+  font-size: 28px !important;
+}
+
+.\!text-\[50px\] {
+  font-size: 50px !important;
 }
 
 .text-\[16px\] {
@@ -2008,8 +2200,24 @@ video {
   line-height: 1.25rem;
 }
 
+.\!text-\[18px\] {
+  font-size: 18px !important;
+}
+
+.\!text-\[16px\] {
+  font-size: 16px !important;
+}
+
 .\!font-light {
   font-weight: 300 !important;
+}
+
+.\!font-medium {
+  font-weight: 500 !important;
+}
+
+.\!font-normal {
+  font-weight: 400 !important;
 }
 
 .font-\[300\] {
@@ -2077,9 +2285,24 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity, 1)) !important;
 }
 
+.\!text-\[\#505DD6\] {
+  --tw-text-opacity: 1 !important;
+  color: rgb(80 93 214 / var(--tw-text-opacity, 1)) !important;
+}
+
+.\!text-orange {
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 119 59 / var(--tw-text-opacity, 1)) !important;
+}
+
 .\!text-red-500 {
   --tw-text-opacity: 1 !important;
   color: rgb(239 68 68 / var(--tw-text-opacity, 1)) !important;
+}
+
+.\!text-white {
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1)) !important;
 }
 
 .text-\[\#000000\] {
@@ -2146,6 +2369,11 @@ video {
   color: rgb(31 41 55 / var(--tw-text-opacity, 1));
 }
 
+.text-orange {
+  --tw-text-opacity: 1;
+  color: rgb(255 119 59 / var(--tw-text-opacity, 1));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -2197,8 +2425,18 @@ video {
   outline-color: #656565;
 }
 
+.blur {
+  --tw-blur: blur(8px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.backdrop-filter {
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .transition {
@@ -2250,8 +2488,8 @@ video {
   padding: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
-  --fuente-Bree: 'Bree Serif', serif;
-  --fuent-inter: 'Inter', sans-serif;
+  --fuente-Bree: "Bree Serif", serif;
+  --fuent-inter: "Inter", sans-serif;
 }
 
 body {
@@ -2261,41 +2499,41 @@ body {
 header,
 main,
 footer {
-  cursor: url('../img/cursor.svg'), auto;
+  cursor: url("../img/cursor.svg"), auto;
 }
 
 footer .container .part1 .formulario2 form button svg.enviado,
 footer .container .part1 .formulario2 form button br,
-footer .container .part1 .formulario2 form[data-status='sent'] button svg {
+footer .container .part1 .formulario2 form[data-status="sent"] button svg {
   display: none;
 }
 
 footer
-	.container
-	.part1
-	.formulario2
-	form[data-status='sent']
-	button
-	svg.enviado {
+  .container
+  .part1
+  .formulario2
+  form[data-status="sent"]
+  button
+  svg.enviado {
   display: block;
 }
 
 @font-face {
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
 
-  src: url('../fuente/Bree-Light.otf') format('truetype');
+  src: url("../fuente/Bree-Light.otf") format("truetype");
 }
 
 @font-face {
-  font-family: 'fuente-bree-bold';
+  font-family: "fuente-bree-bold";
 
-  src: url('../fuente/Bree-Bold.otf') format('truetype');
+  src: url("../fuente/Bree-Bold.otf") format("truetype");
 }
 
 @font-face {
-  font-family: 'fuente-gulya';
+  font-family: "fuente-gulya";
 
-  src: url('../fuente/gulya.otf') format('truetype');
+  src: url("../fuente/gulya.otf") format("truetype");
 }
 
 .container {
@@ -2420,7 +2658,7 @@ header .container .lista ul li a {
 }
 
 header .container .lista ul li a::before {
-  content: '';
+  content: "";
   width: 0;
   height: 1px;
   background-color: #fff;
@@ -2539,7 +2777,7 @@ section.hero .container .content h1 {
   margin-top: 30px;
   color: #fffbf5;
   text-align: center;
-  font-family: 'fuente-gulya';
+  font-family: "fuente-gulya";
   font-size: 60px;
   font-weight: 400;
   line-height: 108.3%;
@@ -2644,7 +2882,7 @@ section.categorias .contentInfo .part1 .part1-1 {
 
 section.categorias .contentInfo .part1 .part1-1 h2 {
   color: #000;
-  font-family: 'fuente-gulya';
+  font-family: "fuente-gulya";
   font-size: 50px;
   font-weight: 400;
 }
@@ -2657,7 +2895,7 @@ section.categorias .contentInfo .part1 .part1-1 h2 img {
 
 section.categorias .contentInfo .part1 .part1-1 p {
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 400;
   padding-top: 30px;
@@ -2698,11 +2936,11 @@ section.categorias .contentInfo .part2 .itemCategoria:nth-child(1) {
 }
 
 section.categorias
-	.contentInfo
-	.part2
-	.itemCategoria:nth-child(1)
-	.etapa1
-	.contentImg {
+  .contentInfo
+  .part2
+  .itemCategoria:nth-child(1)
+  .etapa1
+  .contentImg {
   height: 140px;
 }
 
@@ -2712,17 +2950,17 @@ section.categorias .contentInfo .part2 .itemCategoria:nth-child(3) {
 }
 
 section.categorias
-	.contentInfo
-	.part2
-	.itemCategoria:nth-child(2)
-	.etapa1
-	.contentImg,
+  .contentInfo
+  .part2
+  .itemCategoria:nth-child(2)
+  .etapa1
+  .contentImg,
 section.categorias
-	.contentInfo
-	.part2
-	.itemCategoria:nth-child(3)
-	.etapa1
-	.contentImg {
+  .contentInfo
+  .part2
+  .itemCategoria:nth-child(3)
+  .etapa1
+  .contentImg {
   height: 111px;
 }
 
@@ -2765,7 +3003,7 @@ section.categorias .flechas .swiper-pagination {
   left: initial;
   right: initial;
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 700;
 }
@@ -2799,7 +3037,7 @@ section.categorias .flechas .swiper-button-next::after {
 
 section.categorias.cuidadoTodosCategorias .contentInfo .part1 .part1-1 h2 {
   font-size: 36px;
-  font-family: 'fuente-bree-bold';
+  font-family: "fuente-bree-bold";
   font-weight: 400;
 }
 
@@ -2857,7 +3095,7 @@ section.categorias.cuidadoTodosCategorias .contentInfo .part1 .part1-1 a:hover {
 
 .itemCategoria .etapa1 div span {
   color: #c8783d;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 14px;
   font-weight: 400;
   padding: 5px 10px;
@@ -2870,7 +3108,7 @@ section.categorias.cuidadoTodosCategorias .contentInfo .part1 .part1-1 a:hover {
 }
 
 .itemCategoria .etapa1 div span::before {
-  content: '';
+  content: "";
   width: 6px;
   height: 6px;
   background-color: #c8783d;
@@ -2919,7 +3157,7 @@ section.categorias.cuidadoTodosCategorias .contentInfo .part1 .part1-1 a:hover {
   display: flex;
   align-items: center;
   gap: 5px;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -2936,7 +3174,7 @@ section.categorias.cuidadoTodosCategorias .contentInfo .part1 .part1-1 a:hover {
 
 .itemCategoria .etapa2 h3 {
   color: #c8783d;
-  font-family: 'fuente-bree-bold';
+  font-family: "fuente-bree-bold";
   font-size: 22px;
   font-weight: 700;
   padding-top: 5px;
@@ -3058,7 +3296,7 @@ section.change .container .part2 .contentText .title h2 {
   color: #000;
   font-size: 50px;
   font-weight: 400;
-  font-family: 'fuente-gulya';
+  font-family: "fuente-gulya";
   display: none;
 }
 
@@ -3068,7 +3306,7 @@ section.change .container .part2 .contentText .title h2.mostrar {
 
 section.change .container .part2 .contentText h3 {
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 20px;
   font-weight: 700;
   margin-top: 15px;
@@ -3080,7 +3318,7 @@ section.change .container .part2 .contentText .texto {
 
 section.change .container .part2 .contentText .texto p {
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
   display: none;
@@ -3162,7 +3400,7 @@ footer .container .part1 {
 
 footer .container .part1 h2 {
   color: #fff;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 30px;
   font-weight: 400;
 }
@@ -3170,7 +3408,7 @@ footer .container .part1 h2 {
 footer .container .part1 p,
 footer .container .part1 p a {
   color: #fff;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
   padding-top: 13px;
@@ -3197,7 +3435,7 @@ footer .container .part1 .formulario2 form input {
   border-radius: 100px;
   background: #fff;
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
   padding: 15px;
@@ -3212,14 +3450,14 @@ footer .container .part1 .formulario2 form input.error {
 
 footer .container .part1 .formulario2 form input::-moz-placeholder {
   color: #797979;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
 }
 
 footer .container .part1 .formulario2 form input::placeholder {
   color: #797979;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
 }
@@ -3247,7 +3485,7 @@ footer .container .part1 .redes {
 
 footer .container .part1 .redes p {
   color: #fff;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 30px;
   font-weight: 300;
   padding-top: 0;
@@ -3279,7 +3517,7 @@ footer .container .part3 {
 footer .container .part3 p,
 footer .container .part3 a {
   color: #fff;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 100;
 }
@@ -3287,7 +3525,7 @@ footer .container .part3 a {
 footer .container .part3 p {
   font-weight: 500;
   padding-bottom: 30px;
-  font-family: 'fuente-bree-bold';
+  font-family: "fuente-bree-bold";
 }
 
 footer .container .part3 ul {
@@ -3425,8 +3663,8 @@ body.page-template-actividades section.heroMascota.todos .personaje.todos,
 body.page-template-destinos section.heroMascota.todos .personaje.todos,
 body.page-template-cuidado-todos section.heroMascota.todos .personaje.todos,
 body.page-template-entretenimiento-todos
-	section.heroMascota.todos
-	.personaje.todos,
+  section.heroMascota.todos
+  .personaje.todos,
 body.page-template-actividades-todos section.heroMascota.todos .personaje.todos,
 body.page-template-destinos-todos section.heroMascota.todos .personaje.todos {
   display: block;
@@ -3438,8 +3676,8 @@ body.page-template-actividades section.heroMascota.perro .personaje.perro,
 body.page-template-destinos section.heroMascota.perro .personaje.perro,
 body.page-template-cuidado-todos section.heroMascota.perro .personaje.perro,
 body.page-template-entretenimiento-todos
-	section.heroMascota.perro
-	.personaje.perro,
+  section.heroMascota.perro
+  .personaje.perro,
 body.page-template-actividades-todos section.heroMascota.perro .personaje.perro,
 body.page-template-destinos-todos section.heroMascota.perro .personaje.perro {
   display: block;
@@ -3451,8 +3689,8 @@ body.page-template-actividades section.heroMascota.gato .personaje.gato,
 body.page-template-destinos section.heroMascota.gato .personaje.gato,
 body.page-template-cuidado-todos section.heroMascota.gato .personaje.gato,
 body.page-template-entretenimiento-todos
-	section.heroMascota.gato
-	.personaje.gato,
+  section.heroMascota.gato
+  .personaje.gato,
 body.page-template-actividades-todos section.heroMascota.gato .personaje.gato,
 body.page-template-destinos-todos section.heroMascota.gato .personaje.gato {
   display: block;
@@ -3524,7 +3762,7 @@ section.bannerNosotros .container .content {
 section.bannerNosotros .container .content h1 {
   color: #fffbf5;
   text-align: center;
-  font-family: 'fuente-gulya';
+  font-family: "fuente-gulya";
   font-size: 50px;
   font-weight: 400;
 }
@@ -3548,7 +3786,7 @@ section.proposito {
 section.proposito h2 {
   color: #000;
   text-align: center;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 30px;
   font-weight: 700;
 }
@@ -3556,7 +3794,7 @@ section.proposito h2 {
 section.proposito p {
   color: #000;
   text-align: center;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
   line-height: 150%;
@@ -3582,7 +3820,7 @@ section.historia .container .btnSuscribete {
 
 section.historia h2 {
   color: #000;
-  font-family: 'fuente-gulya';
+  font-family: "fuente-gulya";
   font-size: 44px;
   font-weight: 400;
   text-align: center;
@@ -3598,7 +3836,7 @@ section.historia .contentItems {
 }
 
 section.historia .contentItems::before {
-  content: '';
+  content: "";
   background-image: url(../img/borde.svg);
   background-repeat: repeat;
   position: absolute;
@@ -3639,7 +3877,7 @@ section.historia .contentItems .item .contentText {
 
 section.historia .contentItems .item .contentText h3 {
   color: #505dd6;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 24px;
   font-weight: 600;
   padding-bottom: 25px;
@@ -3647,7 +3885,7 @@ section.historia .contentItems .item .contentText h3 {
 }
 
 section.historia .contentItems .item .contentText h3::before {
-  content: '';
+  content: "";
   width: 23px;
   height: 23px;
   background-color: #505dd6;
@@ -3665,7 +3903,7 @@ section.historia .contentItems .item .contentText .contentP {
 
 section.historia .contentItems .item .contentText p {
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
 }
@@ -3696,7 +3934,7 @@ section.equipo {
 section.equipo h2 {
   color: #000;
   text-align: center;
-  font-family: 'fuente-gulya';
+  font-family: "fuente-gulya";
   font-size: 44px;
   font-weight: 400;
 }
@@ -3704,7 +3942,7 @@ section.equipo h2 {
 section.equipo p {
   color: #000;
   text-align: center;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
   padding-top: 30px;
@@ -3785,7 +4023,7 @@ section.aliados .figura2 {
 section.aliados h2 {
   text-align: center;
   color: #fffbf5;
-  font-family: 'fuente-gulya';
+  font-family: "fuente-gulya";
   font-size: 44px;
   font-weight: 400;
 }
@@ -3793,7 +4031,7 @@ section.aliados h2 {
 section.aliados p {
   color: #fff;
   text-align: center;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 400;
   padding-top: 20px;
@@ -3816,7 +4054,7 @@ section.aliados .contentFigura .contentImg {
 }
 
 section.aliados .contentFigura .contentImg::before {
-  content: '';
+  content: "";
   background-image: url(../img/huella-blanca.svg);
   position: absolute;
   top: 50%;
@@ -3837,7 +4075,7 @@ section.instagram {
 
 section.instagram h2 {
   color: #000;
-  font-family: 'fuente-gulya';
+  font-family: "fuente-gulya";
   font-size: 44px;
   font-style: normal;
   font-weight: 400;
@@ -3845,7 +4083,7 @@ section.instagram h2 {
 
 section.instagram p {
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -3900,14 +4138,9 @@ section.bannerContacto .fondo img {
      object-fit: cover;
 }
 
-section.contacto .container .part1 {
-  max-width: 590px;
-  margin: 0 auto;
-}
-
 section.contacto .container .part1 h1 {
   color: #000;
-  font-family: 'fuente-gulya';
+  font-family: "fuente-gulya";
   font-size: 60px;
   font-weight: 400;
   text-align: center;
@@ -3916,7 +4149,7 @@ section.contacto .container .part1 h1 {
 section.contacto .container .part1 p {
   padding-top: 20px;
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
   line-height: 150%;
@@ -3924,7 +4157,6 @@ section.contacto .container .part1 p {
 }
 
 section.contacto .container .part2 {
-  max-width: 520px;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -3948,7 +4180,7 @@ section.contacto .container .part2 .formulario .contentInput p br {
 
 section.contacto .container .part2 .formulario .contentInput label {
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 400;
 }
@@ -3959,7 +4191,7 @@ section.contacto .container .part2 .formulario .contentInput input {
   border: 1px solid #000;
   padding: 15px;
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
   outline: none;
@@ -3974,7 +4206,7 @@ section.contacto .container .part2 .formulario .contentInput textarea {
   border-radius: 8px;
   border: 1px solid #000;
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
   height: 150px;
@@ -3991,7 +4223,7 @@ section.contacto .container .part2 .formulario button {
   width: -moz-fit-content;
   width: fit-content;
   color: #fff;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 400;
   padding: 18px 40px;
@@ -4018,14 +4250,14 @@ section.pageInterna .title {
 
 section.pageInterna .title .part1 h1 {
   color: #000;
-  font-family: 'fuente-gulya';
+  font-family: "fuente-gulya";
   font-size: 44px;
   font-weight: 400;
 }
 
 section.pageInterna .title .part1 p {
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
   padding-top: 17px;
@@ -4049,7 +4281,7 @@ section.pageInterna .title .part1 .filtros .buscador input {
   border-radius: 100px;
   border: 1px solid #000;
   color: #7a7a7a;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
 }
@@ -4069,7 +4301,7 @@ section.pageInterna .title .part1 .filtros select {
   border-radius: 100px;
   border: 1px solid #000;
   color: #7a7a7a;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
   padding: 10px 15px;
@@ -4099,7 +4331,7 @@ section.pageInterna .Items .item {
 
 section.pageInterna .Items .item span {
   color: #c8783d;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 14px;
   font-weight: 400;
   padding: 5px 10px;
@@ -4114,7 +4346,7 @@ section.pageInterna .Items .item span {
 }
 
 section.pageInterna .Items .item span::before {
-  content: '';
+  content: "";
   width: 6px;
   height: 6px;
   background-color: #c8783d;
@@ -4137,7 +4369,7 @@ section.pageInterna .Items .item .contentImg img {
 
 section.pageInterna .Items .item h3 {
   color: #c8783d;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 18px;
   font-weight: 700;
 }
@@ -4151,7 +4383,7 @@ section.pageInterna .Items .item .content {
 
 section.pageInterna .Items .item .content p {
   color: #c8783d;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -4176,7 +4408,7 @@ section.pageInterna .naranja {
 
 a.regresar {
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
   display: flex;
@@ -4257,7 +4489,7 @@ section.populares a.btnmovil,
 section.interes button.btnmovil {
   display: none;
   color: #ff773b;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 14px;
   font-weight: 400;
   padding: 10px 15px;
@@ -4287,7 +4519,7 @@ section.interes .part1 .title {
 section.populares .part1 .title h2,
 section.interes .part1 .title h2 {
   color: #000;
-  font-family: 'fuente-bree-bold';
+  font-family: "fuente-bree-bold";
   font-size: 36px;
   font-weight: 400;
 }
@@ -4295,7 +4527,7 @@ section.interes .part1 .title h2 {
 section.populares .part1 .title a,
 section.interes .part1 .title a {
   color: #ff773b;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 14px;
   font-weight: 400;
   padding: 10px 15px;
@@ -4390,7 +4622,7 @@ section.pageArticulo .part1 .part11 .contentImg {
 
 section.pageArticulo .part1 .part11 span {
   color: #c8783d;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 14px;
   font-weight: 400;
   padding: 5px 10px;
@@ -4402,7 +4634,7 @@ section.pageArticulo .part1 .part11 span {
 }
 
 section.pageArticulo .part1 .part11 span::before {
-  content: '';
+  content: "";
   width: 6px;
   height: 6px;
   background-color: #c8783d;
@@ -4415,7 +4647,7 @@ section.pageArticulo .part1 .part11 span::before {
 section.pageArticulo .part1 .part11 h1 {
   margin-top: 23px;
   color: var(--beige-80, #c8783d);
-  font-family: 'fuente-bree-bold';
+  font-family: "fuente-bree-bold";
   font-size: 50px;
   font-weight: 700;
 }
@@ -4431,13 +4663,13 @@ section.pageArticulo .part1 .part11 .datos {
 section.pageArticulo .part1 .part11 .datos div {
   position: relative;
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 300;
 }
 
 section.pageArticulo .part1 .part11 .datos div:first-child::before {
-  content: '';
+  content: "";
   width: 5px;
   height: 5px;
   background-color: #000;
@@ -4451,7 +4683,7 @@ section.pageArticulo .part1 .part11 .datos div:first-child::before {
 section.pageArticulo .part1 .part11 .redes p {
   color: #000;
   font-size: 16px;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-weight: 400;
   padding-bottom: 15px;
 }
@@ -4521,7 +4753,7 @@ section.pageArticulo .part2 .contentText {
 section.pageArticulo .part2 .contentText p,
 section.pageArticulo .part2 .contentText li {
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
@@ -4544,7 +4776,7 @@ section.pageArticulo .part3 {
 
 section.pageArticulo .part3 span {
   color: #000;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 14px;
   font-weight: 400;
   padding: 5px 10px;
@@ -4556,7 +4788,7 @@ section.pageArticulo .part3 span {
 }
 
 section.pageArticulo .part3 span::before {
-  content: '';
+  content: "";
   width: 6px;
   height: 6px;
   background-color: #000;
@@ -4568,7 +4800,7 @@ section.pageArticulo .part3 span::before {
 
 section.pageArticulo .part3 h3 {
   color: #000;
-  font-family: 'fuente-bree-bold';
+  font-family: "fuente-bree-bold";
   font-size: 24px;
   font-weight: 400;
 }
@@ -4589,7 +4821,7 @@ section.politicas {
 section.politicas h1 {
   color: #000;
   text-align: center;
-  font-family: 'fuente-gulya';
+  font-family: "fuente-gulya";
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 40px;
@@ -4628,7 +4860,7 @@ section.politicas ul li {
 
 @media (max-width: 1280px) {
   section.hero .container .content h1,
-	section.contacto .container .part1 h1 {
+  section.contacto .container .part1 h1 {
     font-size: 55px;
   }
 
@@ -4637,8 +4869,8 @@ section.politicas ul li {
   }
 
   section.categorias .contentInfo .part1 .part1-1 h2,
-	section.change .container .part2 .contentText .title h2,
-	section.bannerNosotros .container .content h1 {
+  section.change .container .part2 .contentText .title h2,
+  section.bannerNosotros .container .content h1 {
     font-size: 45px;
   }
 
@@ -4647,22 +4879,22 @@ section.politicas ul li {
   }
 
   section.categorias .contentInfo .part2,
-	section.categorias .contentInfo {
+  section.categorias .contentInfo {
     gap: 18px;
   }
 
   section.categorias
-		.contentInfo
-		.part2
-		.itemCategoria:nth-child(2)
-		.etapa1
-		.contentImg,
-	section.categorias
-		.contentInfo
-		.part2
-		.itemCategoria:nth-child(3)
-		.etapa1
-		.contentImg {
+    .contentInfo
+    .part2
+    .itemCategoria:nth-child(2)
+    .etapa1
+    .contentImg,
+  section.categorias
+    .contentInfo
+    .part2
+    .itemCategoria:nth-child(3)
+    .etapa1
+    .contentImg {
     height: 86px;
   }
 
@@ -4683,11 +4915,11 @@ section.politicas ul li {
   }
 
   section.categorias
-		.contentInfo
-		.part2
-		.itemCategoria:nth-child(1)
-		.etapa1
-		.contentImg {
+    .contentInfo
+    .part2
+    .itemCategoria:nth-child(1)
+    .etapa1
+    .contentImg {
     height: 120px;
   }
 
@@ -4727,7 +4959,7 @@ section.politicas ul li {
   }
 
   footer .container .part1 h2,
-	footer .container .part1 .redes p {
+  footer .container .part1 .redes p {
     font-size: 25px;
   }
 
@@ -4752,8 +4984,8 @@ section.politicas ul li {
   }
 
   section.populares .part1 .title h2,
-	section.interes .part1 .title h2,
-	section.categorias.cuidadoTodosCategorias .contentInfo .part1 .part1-1 h2 {
+  section.interes .part1 .title h2,
+  section.categorias.cuidadoTodosCategorias .contentInfo .part1 .part1-1 h2 {
     font-size: 30px;
   }
 
@@ -4762,9 +4994,9 @@ section.politicas ul li {
   }
 
   section.historia h2,
-	section.equipo h2,
-	section.aliados h2,
-	section.instagram h2 {
+  section.equipo h2,
+  section.aliados h2,
+  section.instagram h2 {
     font-size: 40px;
   }
 
@@ -4777,7 +5009,7 @@ section.politicas ul li {
   }
 
   section.equipo .marquee .js-marquee-wrapper img,
-	section.equipo .marquee .js-marquee img {
+  section.equipo .marquee .js-marquee img {
     width: 250px;
   }
 
@@ -4786,7 +5018,7 @@ section.politicas ul li {
   }
 
   section.equipo .marquee .js-marquee-wrapper,
-	section.equipo .marquee .js-marquee {
+  section.equipo .marquee .js-marquee {
     gap: 40px;
   }
 
@@ -4819,14 +5051,14 @@ section.politicas ul li {
   }
 
   footer .container .part3 p,
-	footer .container .part3 a,
-	footer .container .part1 p,
-	footer .container .part1 p a {
+  footer .container .part3 a,
+  footer .container .part1 p,
+  footer .container .part1 p a {
     font-size: 15px;
   }
 
   footer .container .part1 h2,
-	footer .container .part1 .redes p {
+  footer .container .part1 .redes p {
     font-size: 20px;
   }
 
@@ -4839,8 +5071,8 @@ section.politicas ul li {
   }
 
   section.blogtodos .itemCategoria .etapa1 .contentImg,
-	section.populares .itemCategoria .etapa1 .contentImg,
-	section.interes .itemCategoria .etapa1 .contentImg {
+  section.populares .itemCategoria .etapa1 .contentImg,
+  section.interes .itemCategoria .etapa1 .contentImg {
     height: 98px;
   }
 
@@ -4864,7 +5096,7 @@ section.politicas ul li {
   }
 
   section.hero .container .content h1,
-	section.contacto .container .part1 h1 {
+  section.contacto .container .part1 h1 {
     font-size: 48px;
   }
 
@@ -4948,8 +5180,8 @@ section.politicas ul li {
   }
 
   section.categorias .contentInfo .part1 .part1-1 h2,
-	section.change .container .part2 .contentText .title h2,
-	section.bannerNosotros .container .content h1 {
+  section.change .container .part2 .contentText .title h2,
+  section.bannerNosotros .container .content h1 {
     font-size: 36px;
   }
 
@@ -4963,7 +5195,7 @@ section.politicas ul li {
   }
 
   section.bannerNosotros .container .content img.figura1,
-	section.bannerNosotros .container .content img.figura2 {
+  section.bannerNosotros .container .content img.figura2 {
     width: 80px;
   }
 
@@ -4972,17 +5204,17 @@ section.politicas ul li {
   }
 
   section.categorias .flechas .swiper-button-prev,
-	section.categorias .flechas .swiper-button-next {
+  section.categorias .flechas .swiper-button-next {
     width: 54px;
     height: 54px;
   }
 
   section.categorias
-		.contentInfo
-		.part2
-		.itemCategoria:nth-child(1)
-		.etapa1
-		.contentImg {
+    .contentInfo
+    .part2
+    .itemCategoria:nth-child(1)
+    .etapa1
+    .contentImg {
     height: 110px;
   }
 
@@ -5024,8 +5256,8 @@ section.politicas ul li {
   }
 
   section.populares .part1 .title h2,
-	section.interes .part1 .title h2,
-	section.categorias.cuidadoTodosCategorias .contentInfo .part1 .part1-1 h2 {
+  section.interes .part1 .title h2,
+  section.categorias.cuidadoTodosCategorias .contentInfo .part1 .part1-1 h2 {
     font-size: 25px;
   }
 
@@ -5038,9 +5270,9 @@ section.politicas ul li {
   }
 
   section.historia h2,
-	section.equipo h2,
-	section.aliados h2,
-	section.instagram h2 {
+  section.equipo h2,
+  section.aliados h2,
+  section.instagram h2 {
     font-size: 35px;
   }
 
@@ -5074,9 +5306,9 @@ section.politicas ul li {
   }
 
   section.categorias .contentInfo .part1 .part1-1,
-	section.categorias .contentInfo .part1 .part1-2,
-	section.categorias .contentInfo .part2 .itemCategoria:nth-child(1),
-	section.categorias .contentInfo .part2 .itemCategoria:nth-child(2) {
+  section.categorias .contentInfo .part1 .part1-2,
+  section.categorias .contentInfo .part2 .itemCategoria:nth-child(1),
+  section.categorias .contentInfo .part2 .itemCategoria:nth-child(2) {
     width: 50%;
   }
 
@@ -5087,14 +5319,14 @@ section.politicas ul li {
   }
 
   section.categorias .flechas .swiper-button-prev,
-	section.categorias .flechas .swiper-button-next {
+  section.categorias .flechas .swiper-button-next {
     width: 50px;
     height: 50px;
   }
 
   section.blogtodos .itemCategoria .etapa1 .contentImg,
-	section.populares .itemCategoria .etapa1 .contentImg,
-	section.interes .itemCategoria .etapa1 .contentImg {
+  section.populares .itemCategoria .etapa1 .contentImg,
+  section.interes .itemCategoria .etapa1 .contentImg {
     height: 10vw !important;
   }
 
@@ -5103,7 +5335,7 @@ section.politicas ul li {
 
 @media (max-width: 900px) {
   section.contacto,
-	section.politicas {
+  section.politicas {
     padding: 80px 0;
   }
 
@@ -5121,7 +5353,7 @@ section.politicas ul li {
   }
 
   header .container .lista ul li,
-	header .container .categorias {
+  header .container .categorias {
     display: none;
   }
 
@@ -5134,7 +5366,7 @@ section.politicas ul li {
   }
 
   a.naranja,
-	button.naranja {
+  button.naranja {
     padding: 15px 30px;
   }
 
@@ -5190,7 +5422,7 @@ section.politicas ul li {
   }
 
   section.menuMovil .menu ul li::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     right: 0;
@@ -5201,7 +5433,7 @@ section.politicas ul li {
   }
 
   section.menuMovil .menu ul li.current-menu-item a::after {
-    content: '';
+    content: "";
     width: 100%;
     height: 1px;
     background-color: #fff;
@@ -5226,7 +5458,7 @@ section.politicas ul li {
   }
 
   section.menuMovil .menu ul li::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 150%;
     top: 0;
@@ -5237,7 +5469,7 @@ section.politicas ul li {
   }
 
   section.menuMovil .menu ul li:last-child::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     right: 0;
@@ -5252,7 +5484,7 @@ section.politicas ul li {
   }
 
   section.menuMovil .menu::before {
-    content: '';
+    content: "";
     position: absolute;
     width: 150%;
     bottom: 0;
@@ -5293,8 +5525,8 @@ section.politicas ul li {
   }
 
   section.blogtodos .itemCategoria .etapa1 .contentImg,
-	section.populares .itemCategoria .etapa1 .contentImg,
-	section.interes .itemCategoria .etapa1 .contentImg {
+  section.populares .itemCategoria .etapa1 .contentImg,
+  section.interes .itemCategoria .etapa1 .contentImg {
     height: 12vw !important;
   }
 
@@ -5307,7 +5539,7 @@ section.politicas ul li {
   }
 
   section.pageArticulo .part1 .part11 h1,
-	section.politicas h1 {
+  section.politicas h1 {
     font-size: 40px;
   }
 
@@ -5338,7 +5570,7 @@ section.politicas ul li {
 
 @media (max-width: 850px) {
   section.hero .container .content h1,
-	section.contacto .container .part1 h1 {
+  section.contacto .container .part1 h1 {
     font-size: 42px;
   }
 
@@ -5476,8 +5708,8 @@ section.politicas ul li {
   }
 
   footer .container .part1 h2,
-	footer .container .part1 p,
-	footer .container .part1 p a {
+  footer .container .part1 p,
+  footer .container .part1 p a {
     text-align: center;
   }
 
@@ -5549,8 +5781,8 @@ section.politicas ul li {
   }
 
   section.categorias .contentInfo .part1 .part1-1 h2,
-	section.change .container .part2 .contentText .title h2,
-	section.bannerNosotros .container .content h1 {
+  section.change .container .part2 .contentText .title h2,
+  section.bannerNosotros .container .content h1 {
     font-size: 30px;
   }
 
@@ -5583,7 +5815,7 @@ section.politicas ul li {
   }
 
   section.pageArticulo .part1 .part11 h1,
-	section.politicas h1 {
+  section.politicas h1 {
     font-size: 35px;
   }
 
@@ -5608,7 +5840,7 @@ section.politicas ul li {
   }
 
   section.bannerNosotros .container .content img.figura1,
-	section.bannerNosotros .container .content img.figura2 {
+  section.bannerNosotros .container .content img.figura2 {
     width: 70px;
   }
 
@@ -5622,9 +5854,9 @@ section.politicas ul li {
   }
 
   section.historia h2,
-	section.equipo h2,
-	section.aliados h2,
-	section.instagram h2 {
+  section.equipo h2,
+  section.aliados h2,
+  section.instagram h2 {
     font-size: 30px;
   }
 
@@ -5641,7 +5873,7 @@ section.politicas ul li {
   }
 
   section.historia .contentItems .item,
-	section.historia .contentItems .item:nth-child(even) {
+  section.historia .contentItems .item:nth-child(even) {
     flex-direction: column;
     gap: 20px;
   }
@@ -5652,12 +5884,12 @@ section.politicas ul li {
   }
 
   section.historia .contentItems .item .contentImg,
-	section.historia .contentItems .item .contentText {
+  section.historia .contentItems .item .contentText {
     width: 100%;
   }
 
   section.historia .contentItems .item .contentText,
-	section.historia .contentItems .item:nth-child(even) .contentText {
+  section.historia .contentItems .item:nth-child(even) .contentText {
     padding-left: 50px;
     padding-right: 0;
   }
@@ -5667,7 +5899,7 @@ section.politicas ul li {
   }
 
   section.historia .contentItems .item:nth-child(even) .contentText h3,
-	section.historia .contentItems .item:nth-child(even) .contentText p {
+  section.historia .contentItems .item:nth-child(even) .contentText p {
     text-align: start;
   }
 
@@ -5689,7 +5921,7 @@ section.politicas ul li {
   }
 
   section.hero .container .content h1,
-	section.contacto .container .part1 h1 {
+  section.contacto .container .part1 h1 {
     font-size: 38px;
   }
 
@@ -5702,8 +5934,8 @@ section.politicas ul li {
   }
 
   section.change .container .part1 .dots,
-	section.change .container .part2 .contentText .borde,
-	section.change .container .part2 .contentText h3 {
+  section.change .container .part2 .contentText .borde,
+  section.change .container .part2 .contentText h3 {
     display: none;
   }
 
@@ -5712,7 +5944,7 @@ section.politicas ul li {
   }
 
   section.change .container .part1,
-	section.change .container .part2 {
+  section.change .container .part2 {
     width: 100%;
   }
 
@@ -5746,7 +5978,7 @@ section.politicas ul li {
 
 @media (max-width: 640px) {
   section.bannerNosotros .container .content img.figura1,
-	section.bannerNosotros .container .content img.figura2 {
+  section.bannerNosotros .container .content img.figura2 {
     position: initial;
   }
 
@@ -5766,7 +5998,7 @@ section.politicas ul li {
   }
 
   section.bannerNosotros .container .content img.figura1,
-	section.bannerNosotros .container .content img.figura2 {
+  section.bannerNosotros .container .content img.figura2 {
     width: 60px;
   }
 
@@ -5786,14 +6018,14 @@ section.politicas ul li {
   }
 
   section.categorias .contentInfo .part1,
-	section.categorias .contentInfo .part2 {
+  section.categorias .contentInfo .part2 {
     flex-direction: column !important;
   }
 
   section.categorias .contentInfo .part1 .part1-1,
-	section.categorias .contentInfo .part1 .part1-2,
-	section.categorias .contentInfo .part2 .itemCategoria:nth-child(1),
-	section.categorias .contentInfo .part2 .itemCategoria:nth-child(2) {
+  section.categorias .contentInfo .part1 .part1-2,
+  section.categorias .contentInfo .part2 .itemCategoria:nth-child(1),
+  section.categorias .contentInfo .part2 .itemCategoria:nth-child(2) {
     width: 100%;
   }
 
@@ -5860,7 +6092,7 @@ section.politicas ul li {
 
   .itemCategoria .etapa2 div:nth-child(1) span {
     color: #c8783d;
-    font-family: 'fuente-bree-regular';
+    font-family: "fuente-bree-regular";
     font-weight: 400;
     padding: 5px 10px;
     border-radius: 100px;
@@ -5872,7 +6104,7 @@ section.politicas ul li {
   }
 
   .itemCategoria .etapa2 div:nth-child(1) span::before {
-    content: '';
+    content: "";
     width: 6px;
     height: 6px;
     background-color: #c8783d;
@@ -5897,17 +6129,17 @@ section.politicas ul li {
   }
 
   section.categorias .contentInfo .part1 .itemCategoria .contentImgaMovil,
-	section.categorias
-		.contentInfo
-		.part1
-		.itemCategoria
-		.etapa2
-		div:nth-child(1) {
+  section.categorias
+    .contentInfo
+    .part1
+    .itemCategoria
+    .etapa2
+    div:nth-child(1) {
     display: none;
   }
 
   section.categorias .contentInfo .part1 .itemCategoria .etapa1,
-	section.categorias .contentInfo .part1 .itemCategoria .etapa2 div.info {
+  section.categorias .contentInfo .part1 .itemCategoria .etapa2 div.info {
     display: flex;
   }
 
@@ -5918,9 +6150,9 @@ section.politicas ul li {
   }
 
   section.categorias
-		.SliderCategorias
-		.swiper-pagination
-		.swiper-pagination-bullet {
+    .SliderCategorias
+    .swiper-pagination
+    .swiper-pagination-bullet {
     width: 14px;
     height: 14px;
     border-radius: 14px;
@@ -5930,14 +6162,14 @@ section.politicas ul li {
   }
 
   section.categorias
-		.SliderCategorias
-		.swiper-pagination
-		.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    .SliderCategorias
+    .swiper-pagination
+    .swiper-pagination-bullet.swiper-pagination-bullet-active {
     background: #ff773b;
   }
 
   section.categorias .flechas .swiper-button-prev,
-	section.categorias .flechas .swiper-button-next {
+  section.categorias .flechas .swiper-button-next {
     display: none;
   }
 
@@ -5963,7 +6195,7 @@ section.politicas ul li {
   }
 
   section.pageArticulo .part1 .part11 h1,
-	section.politicas h1 {
+  section.politicas h1 {
     font-size: 30px;
   }
 
@@ -5987,15 +6219,15 @@ section.politicas ul li {
   }
 
   section.populares .contentSlider,
-	section.interes .contentSlider,
-	section.populares .part1 .title a,
-	section.populares .part1 .flechas,
-	section.interes .part1 .flechas {
+  section.interes .contentSlider,
+  section.populares .part1 .title a,
+  section.populares .part1 .flechas,
+  section.interes .part1 .flechas {
     display: none;
   }
 
   section.populares .contentMovilpopulares,
-	section.interes .contentMovilpopulares {
+  section.interes .contentMovilpopulares {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
@@ -6003,7 +6235,7 @@ section.politicas ul li {
   }
 
   section.populares a.btnmovil,
-	section.interes button.btnmovil {
+  section.interes button.btnmovil {
     display: flex;
     margin: 0 auto;
     margin-top: 30px;
@@ -6019,11 +6251,11 @@ section.politicas ul li {
   }
 
   section.categorias
-		.contentInfo
-		.part1
-		.itemCategoria
-		.etapa2
-		div:nth-child(3) {
+    .contentInfo
+    .part1
+    .itemCategoria
+    .etapa2
+    div:nth-child(3) {
     display: initial;
     width: initial;
     justify-content: initial;
@@ -6058,7 +6290,7 @@ section.politicas ul li {
   }
 
   section.equipo .marquee .js-marquee-wrapper img,
-	section.equipo .marquee .js-marquee img {
+  section.equipo .marquee .js-marquee img {
     width: 220px;
   }
 
@@ -6067,7 +6299,7 @@ section.politicas ul li {
   }
 
   section.equipo .marquee .js-marquee-wrapper,
-	section.equipo .marquee .js-marquee {
+  section.equipo .marquee .js-marquee {
     gap: 20px;
   }
 
@@ -6104,7 +6336,7 @@ section.politicas ul li {
   }
 
   section.contacto,
-	section.politicas {
+  section.politicas {
     padding: 70px 0;
   }
 
@@ -6124,7 +6356,7 @@ section.politicas ul li {
   }
 
   section.hero .container .contenImgs .divImg4,
-	section.hero .container .contenImgs .divImg7 {
+  section.hero .container .contenImgs .divImg7 {
     display: none;
   }
 
@@ -6136,7 +6368,7 @@ section.politicas ul li {
   }
 
   section.hero .container .content h1,
-	section.contacto .container .part1 h1 {
+  section.contacto .container .part1 h1 {
     font-size: 28px;
   }
 
@@ -6162,8 +6394,8 @@ section.politicas ul li {
   }
 
   .itemCategoria .etapa1 div span,
-	.itemCategoria .etapa2 div:nth-child(1) span,
-	.itemCategoria .etapa2 div.info {
+  .itemCategoria .etapa2 div:nth-child(1) span,
+  .itemCategoria .etapa2 div.info {
     font-size: 12px;
   }
 
@@ -6180,8 +6412,8 @@ section.politicas ul li {
   }
 
   section.categorias .contentInfo .part1 .part1-1 h2,
-	section.change .container .part2 .contentText .title h2,
-	section.bannerNosotros .container .content h1 {
+  section.change .container .part2 .contentText .title h2,
+  section.bannerNosotros .container .content h1 {
     font-size: 24px;
   }
 
@@ -6198,15 +6430,15 @@ section.politicas ul li {
   }
 
   footer .container .part3 p,
-	footer .container .part3 a,
-	footer .container .part1 p,
-	footer .container .part1 p a {
+  footer .container .part3 a,
+  footer .container .part1 p,
+  footer .container .part1 p a {
     font-size: 14px;
   }
 
   footer .container .part1 h2,
-	footer .container .part1 p,
-	footer .container .part1 p a {
+  footer .container .part1 p,
+  footer .container .part1 p a {
     text-align: start;
   }
 
@@ -6251,18 +6483,18 @@ section.politicas ul li {
   }
 
   section.populares .part1 .title h2,
-	section.interes .part1 .title h2,
-	section.categorias.cuidadoTodosCategorias .contentInfo .part1 .part1-1 h2 {
+  section.interes .part1 .title h2,
+  section.categorias.cuidadoTodosCategorias .contentInfo .part1 .part1-1 h2 {
     font-size: 22px;
   }
 
   section.populares .part1 .title a,
-	section.interes .part1 .title a {
+  section.interes .part1 .title a {
     padding: 7px 15px;
   }
 
   section.pageArticulo .part1 .part11 h1,
-	section.politicas h1 {
+  section.politicas h1 {
     font-size: 30px;
   }
 
@@ -6293,9 +6525,9 @@ section.politicas ul li {
   }
 
   section.historia h2,
-	section.equipo h2,
-	section.aliados h2,
-	section.instagram h2 {
+  section.equipo h2,
+  section.aliados h2,
+  section.instagram h2 {
     font-size: 25px;
   }
 
@@ -6304,7 +6536,7 @@ section.politicas ul li {
   }
 
   section.historia .contentItems .item .contentText,
-	section.historia .contentItems .item:nth-child(even) .contentText {
+  section.historia .contentItems .item:nth-child(even) .contentText {
     padding-left: 39px;
     padding-right: 0;
   }
@@ -6329,7 +6561,7 @@ section.politicas ul li {
   }
 
   section.historia .contentItems .item .contentText,
-	section.historia .contentItems .item:nth-child(even) .contentText {
+  section.historia .contentItems .item:nth-child(even) .contentText {
     padding-left: 34px;
   }
 
@@ -6350,7 +6582,7 @@ section.politicas ul li {
   }
 
   section.menuMovil .menu ul li::after,
-	section.menuMovil .menu ul li:last-child a::before {
+  section.menuMovil .menu ul li:last-child a::before {
     width: 10px;
     height: 17px;
   }
@@ -6365,7 +6597,7 @@ section.politicas ul li {
   height: 60vh;
   align-items: center;
   justify-content: center;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   gap: 3em;
 }
 
@@ -6383,10 +6615,10 @@ section.politicas ul li {
 }
 
 apps-fileview.texmex_20240704.01_p0
-	style.css
-	Mostrando
-	style.css.
-	header.leoCdG {
+  style.css
+  Mostrando
+  style.css.
+  header.leoCdG {
   background-color: #505dd6;
   padding: 20px 0;
   /* Reducimos el padding al hacer scroll */
@@ -6423,7 +6655,7 @@ header.leoCdG .container .logo a img.logoblanco {
 }
 
 .swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active::before {
-  content: '';
+  content: "";
   width: 18px;
   height: 18px;
   border-radius: 50%;
@@ -6435,7 +6667,7 @@ header.leoCdG .container .logo a img.logoblanco {
 }
 
 .swiper-pagination-bullets-dynamic
-	.swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+  .swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
   background-color: transparent;
 }
 
@@ -6492,7 +6724,7 @@ a.naranja,
 button.naranja {
   color: #fff;
   text-align: center;
-  font-family: 'fuente-bree-regular';
+  font-family: "fuente-bree-regular";
   font-size: 16px;
   font-weight: 400;
   padding: 10px 20px;
@@ -6508,10 +6740,10 @@ button.naranja {
 
 @media (min-width: 768px) {
   a.naranja,
-	button.naranja {
+  button.naranja {
     color: #fff;
     text-align: center;
-    font-family: 'fuente-bree-regular';
+    font-family: "fuente-bree-regular";
     font-size: 16px;
     font-weight: 400;
     padding: 12px 33px;
@@ -6573,7 +6805,7 @@ button.naranja {
 
 .custom-div-gradient::before,
 .custom-div-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
@@ -6692,7 +6924,7 @@ header .container .categorias ul li a.select-orange a {
 }
 
 .checkbox:checked::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -6700,7 +6932,7 @@ header .container .categorias ul li a.select-orange a {
   /* Asegúrate de que el tamaño sea adecuado */
   height: 20px;
   /* Lo mismo para la altura */
-  background-image: url('/img/check.svg');
+  background-image: url("/img/check.svg");
   /* Ruta de tu archivo SVG */
   background-size: contain;
   background-repeat: no-repeat;
@@ -6720,6 +6952,74 @@ header .container .categorias ul li a.select-orange a {
     width: 100%;
     height: 100%;
   }
+}
+
+.bg-mask {
+  height: 100%;
+  background-image: url("../img/sorteoLineas.svg") !important;
+  background-repeat: repeat;
+  background-size: 100px;
+  background-position: center;
+}
+
+.input-custom {
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.6) !important;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  color: white;
+  font-size: 20px;
+  outline: none;
+}
+
+@media (max-width: 1024px) {
+  .input-custom {
+    font-size: 16px;
+  }
+}
+
+.input-custom::-moz-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.input-custom::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.input-custom:focus {
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.checkbox:checked {
+  background-color: white;
+  border-color: white;
+}
+
+.checkbox:checked::after {
+  content: "";
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .placeholder\:max-w-xs::-moz-placeholder {
@@ -6925,12 +7225,33 @@ header .container .categorias ul li a.select-orange a {
 }
 
 @media (min-width: 768px) {
+  .md\:left-\[-25px\] {
+    left: -25px;
+  }
+
   .md\:left-\[5\%\] {
     left: 5%;
   }
 
   .md\:right-\[5\%\] {
     right: 5%;
+  }
+
+  .md\:left-\[-105px\] {
+    left: -105px;
+  }
+
+  .md\:left-\[55px\] {
+    left: 55px;
+  }
+
+  .md\:left-\[45px\] {
+    left: 45px;
+  }
+
+  .md\:my-\[20px\] {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .md\:mt-\[120px\] {
@@ -6947,6 +7268,10 @@ header .container .categorias ul li a.select-orange a {
 
   .md\:mt-\[250px\] {
     margin-top: 250px;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:flex {
@@ -6971,6 +7296,10 @@ header .container .categorias ul li a.select-orange a {
 
   .md\:h-\[48px\] {
     height: 48px;
+  }
+
+  .md\:h-auto {
+    height: auto;
   }
 
   .md\:max-h-\[70px\] {
@@ -7033,6 +7362,15 @@ header .container .categorias ul li a.select-orange a {
     gap: 1.5rem;
   }
 
+  .md\:p-\[35px\] {
+    padding: 35px;
+  }
+
+  .md\:px-\[80px\] {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
   .md\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -7041,6 +7379,10 @@ header .container .categorias ul li a.select-orange a {
   .md\:py-\[80px\] {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
+
+  .md\:pt-\[60px\] {
+    padding-top: 60px;
   }
 
   .md\:text-start {
@@ -7070,9 +7412,17 @@ header .container .categorias ul li a.select-orange a {
   .md\:text-\[40px\] {
     font-size: 40px;
   }
+
+  .md\:\!text-\[18px\] {
+    font-size: 18px !important;
+  }
 }
 
 @media (min-width: 1024px) {
+  .lg\:left-\[-35px\] {
+    left: -35px;
+  }
+
   .lg\:left-\[8\%\] {
     left: 8%;
   }
@@ -7150,9 +7500,35 @@ header .container .categorias ul li a.select-orange a {
     border-bottom-width: 1px;
   }
 
+  .lg\:p-\[50px\] {
+    padding: 50px;
+  }
+
+  .lg\:px-\[120px\] {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
   .lg\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .lg\:\!px-\[65px\] {
+    padding-left: 65px !important;
+    padding-right: 65px !important;
+  }
+
+  .lg\:pt-\[100px\] {
+    padding-top: 100px;
+  }
+
+  .lg\:\!text-\[20px\] {
+    font-size: 20px !important;
+  }
+
+  .lg\:\!text-\[50px\] {
+    font-size: 50px !important;
   }
 
   .lg\:text-\[24px\] {
@@ -7161,6 +7537,10 @@ header .container .categorias ul li a.select-orange a {
 
   .lg\:text-\[60px\] {
     font-size: 60px;
+  }
+
+  .lg\:text-\[20px\] {
+    font-size: 20px;
   }
 
   .group:hover .group-hover\:lg\:bottom-5 {
@@ -7207,6 +7587,10 @@ header .container .categorias ul li a.select-orange a {
 
   .xl\:w-\[500px\] {
     width: 500px;
+  }
+
+  .xl\:w-auto {
+    width: auto;
   }
 
   .xl\:max-w-\[120px\] {
