@@ -1,393 +1,725 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/output.css" />
     <title>Mascota Club | Veterinaria</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/logo.svg" alt="" class="logoblanco">
-                    <img src="img/logo-azul.svg" alt="" class="logoazul">
-                </a>
-            </div>
-            <div class="contentMenu">
-                <div class="categorias">
-                    <ul>
-                        <li><a href="perro.html">Perro<img src="img/icon-perro.svg" alt=""></a></li>
-                        <li><a href="gato.html">Gato<img src="img/icon-gato.svg" alt=""></a></li>
-                        <li><a href="index.html" class="select">Todos</a></li>
-                    </ul>
-                </div>
-                <div class="lista">
-                    <ul>
-                        <li><a href="cuidado.html">Cuidado</a></li>
-                        <li><a href="entretenimiento.html">Entretenimiento</a></li>
-                        <li><a href="actividades.html">Actividades</a></li>
-                        <li><a href="destinos.html">Destinos</a></li>
-                    </ul>
-                </div>
-            </div>            
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.svg" alt="" class="logoblanco" />
+            <img src="img/logo-azul.svg" alt="" class="logoazul" />
+          </a>
         </div>
+        <div class="contentMenu">
+          <div class="categorias">
+            <ul>
+              <li>
+                <a href="perro.html"
+                  >Perro<img src="img/icon-perro.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="gato.html"
+                  >Gato<img src="img/icon-gato.svg" alt=""
+                /></a>
+              </li>
+              <li><a href="index.html" class="select">Todos</a></li>
+            </ul>
+          </div>
+          <div class="lista">
+            <ul>
+              <li><a href="cuidado.html">Cuidado</a></li>
+              <li><a href="entretenimiento.html">Entretenimiento</a></li>
+              <li><a href="actividades.html">Actividades</a></li>
+              <li><a href="destinos.html">Destinos</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
-        <section class="bannerContacto">
-            <div class="fondo">
-                <img src="img/patas2.webp" alt="">
-            </div>
-        </section>
-        <section class="pageInterna">
-            <div class="container">
-                <a href="index.html" class="regresar"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="13" viewBox="0 0 8 13" fill="none">
-                    <path d="M7.09 1L1 6.75L7.09 12.5" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>Regresar
-                </a>
-                <div class="title">
-                    <div class="part1">
-                        <h1>Veterinarias</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur. Neque ut ac sed.</p>
-                        <div class="filtros">
-                            <div class="buscador">
-                                <input type="text" name="buscador" id="buscador" placeholder="Busca por distrito o provincia">
-                                <button><svg xmlns="http://www.w3.org/2000/svg" width="19" height="20" viewBox="0 0 19 20" fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M14.5024 11.9261C15.4896 10.6534 15.9548 9.0524 15.8035 7.44883C15.6521 5.84525 14.8956 4.35955 13.6877 3.294C12.4798 2.22844 10.9114 1.66305 9.30147 1.71287C7.69154 1.76269 6.16105 2.42397 5.02138 3.56217C3.88071 4.70116 3.21727 6.23224 3.16626 7.84339C3.11525 9.45455 3.68051 11.0245 4.74685 12.2334C5.81318 13.4423 7.30034 14.199 8.90527 14.3495C10.5102 14.4999 12.1121 14.0328 13.3845 13.0432L13.4186 13.0788L16.7768 16.4378C16.8504 16.5114 16.9377 16.5697 17.0338 16.6095C17.1299 16.6494 17.2329 16.6698 17.3369 16.6698C17.441 16.6698 17.544 16.6494 17.6401 16.6095C17.7362 16.5697 17.8235 16.5114 17.897 16.4378C17.9706 16.3643 18.0289 16.277 18.0687 16.1809C18.1086 16.0848 18.129 15.9818 18.129 15.8777C18.129 15.7737 18.1086 15.6707 18.0687 15.5746C18.0289 15.4785 17.9706 15.3912 17.897 15.3176L14.538 11.9594C14.5264 11.948 14.5146 11.9369 14.5024 11.9261ZM12.8589 4.68238C13.3059 5.12213 13.6613 5.64603 13.9048 6.22386C14.1483 6.80169 14.275 7.42201 14.2775 8.04903C14.2801 8.67606 14.1585 9.29739 13.9197 9.87718C13.6809 10.457 13.3297 10.9838 12.8863 11.4271C12.443 11.8705 11.9162 12.2217 11.3364 12.4605C10.7566 12.6993 10.1353 12.8209 9.50824 12.8183C8.88121 12.8158 8.26089 12.6891 7.68307 12.4456C7.10524 12.2021 6.58134 11.8466 6.14158 11.3997C5.26277 10.5064 4.77252 9.3021 4.77762 8.04903C4.78272 6.79597 5.28276 5.59568 6.16882 4.70962C7.05488 3.82356 8.25517 3.32352 9.50824 3.31841C10.7613 3.31331 11.9656 3.80356 12.8589 4.68238Z" fill="black"/>
-                                    </svg></button>
-                            </div>
-                            <div>
-                                <select name="Distrito" id="Distrito">
-                                    <option value="Distrito">Distrito</option>
-                                    <option value="San Miguel">San Miguel</option>
-                                    <option value="San Miguel">Miraflores</option>
-                                </select>
-                            </div>
-                            <div>
-                                <select name="Provincia" id="Provincia">
-                                    <option value="Provincia">Provincia</option>
-                                    <option value="Lima">Lima</option>
-                                    <option value="Lurin">Lurin</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="part2">
-                        <img src="img/perro3.webp" alt="">
-                    </div>
-                </div>
-                <div class="Items">
-                    <div class="item">
-                        <span class="distrito">San Miguel</span>
-                        <div class="contentImg">
-                            <img src="img/fotoveterinaria.webp" alt="">
-                        </div>
-                        <h3>Guauland</h3>
-                        <div class="content">
-                            <p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="12" viewBox="0 0 9 12" fill="none">
-                                <path d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z" fill="#C8783D"/>
-                                </svg>
-                                Calle Putumayo, Av La Mar 1822
-                            </p>
-                            <button><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                                <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z" fill="#FF773B"></path>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 8" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <span class="distrito">San Miguel</span>
-                        <div class="contentImg">
-                            <img src="img/fotoveterinaria.webp" alt="">
-                        </div>
-                        <h3>Guauland</h3>
-                        <div class="content">
-                            <p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="12" viewBox="0 0 9 12" fill="none">
-                                <path d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z" fill="#C8783D"/>
-                                </svg>
-                                Calle Putumayo, Av La Mar 1822
-                            </p>
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                                <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z" fill="#FF773B"></path>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 8" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <span class="distrito">San Miguel</span>
-                        <div class="contentImg">
-                            <img src="img/fotoveterinaria.webp" alt="">
-                        </div>
-                        <h3>Guauland</h3>
-                        <div class="content">
-                            <p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="12" viewBox="0 0 9 12" fill="none">
-                                <path d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z" fill="#C8783D"/>
-                                </svg>
-                                Calle Putumayo, Av La Mar 1822
-                            </p>
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                                <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z" fill="#FF773B"></path>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 8" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <span class="distrito">San Miguel</span>
-                        <div class="contentImg">
-                            <img src="img/fotoveterinaria.webp" alt="">
-                        </div>
-                        <h3>Guauland</h3>
-                        <div class="content">
-                            <p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="12" viewBox="0 0 9 12" fill="none">
-                                <path d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z" fill="#C8783D"/>
-                                </svg>
-                                Calle Putumayo, Av La Mar 1822
-                            </p>
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                                <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z" fill="#FF773B"></path>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 8" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <span class="distrito">San Miguel</span>
-                        <div class="contentImg">
-                            <img src="img/fotoveterinaria.webp" alt="">
-                        </div>
-                        <h3>Guauland</h3>
-                        <div class="content">
-                            <p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="12" viewBox="0 0 9 12" fill="none">
-                                <path d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z" fill="#C8783D"/>
-                                </svg>
-                                Calle Putumayo, Av La Mar 1822
-                            </p>
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                                <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z" fill="#FF773B"></path>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 8" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <span class="distrito">San Miguel</span>
-                        <div class="contentImg">
-                            <img src="img/fotoveterinaria.webp" alt="">
-                        </div>
-                        <h3>Guauland</h3>
-                        <div class="content">
-                            <p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="12" viewBox="0 0 9 12" fill="none">
-                                <path d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z" fill="#C8783D"/>
-                                </svg>
-                                Calle Putumayo, Av La Mar 1822
-                            </p>
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                                <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z" fill="#FF773B"></path>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 8" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <span class="distrito">San Miguel</span>
-                        <div class="contentImg">
-                            <img src="img/fotoveterinaria.webp" alt="">
-                        </div>
-                        <h3>Guauland</h3>
-                        <div class="content">
-                            <p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="12" viewBox="0 0 9 12" fill="none">
-                                <path d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z" fill="#C8783D"/>
-                                </svg>
-                                Calle Putumayo, Av La Mar 1822
-                            </p>
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                                <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z" fill="#FF773B"></path>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 8" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <span class="distrito">San Miguel</span>
-                        <div class="contentImg">
-                            <img src="img/fotoveterinaria.webp" alt="">
-                        </div>
-                        <h3>Guauland</h3>
-                        <div class="content">
-                            <p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="12" viewBox="0 0 9 12" fill="none">
-                                <path d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z" fill="#C8783D"/>
-                                </svg>
-                                Calle Putumayo, Av La Mar 1822
-                            </p>
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                                <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z" fill="#FF773B"></path>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 8" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <span class="distrito">San Miguel</span>
-                        <div class="contentImg">
-                            <img src="img/fotoveterinaria.webp" alt="">
-                        </div>
-                        <h3>Guauland</h3>
-                        <div class="content">
-                            <p>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="9" height="12" viewBox="0 0 9 12" fill="none">
-                                <path d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z" fill="#C8783D"/>
-                                </svg>
-                                Calle Putumayo, Av La Mar 1822
-                            </p>
-                            <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
-                                <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z" fill="#FF773B"></path>
-                                <path d="M11.0001 19.5L17.0901 13.75L11.0001 8" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <button class="naranja" id="cargarMasModulo">Ver más</button>
-            </div>
-        </section>
-        <div class="infocard">
-            <div class="card">
-                <div class="close">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.01001 7.14208L10.6192 11.7513C10.7729 11.8997 10.9787 11.9818 11.1923 11.9799C11.4059 11.9781 11.6103 11.8924 11.7614 11.7413C11.9124 11.5903 11.9981 11.3859 12 11.1723C12.0018 10.9586 11.9197 10.7528 11.7713 10.5992L7.1621 5.98999L11.7713 1.38081C11.9197 1.22714 12.0018 1.02133 12 0.807695C11.9981 0.594064 11.9124 0.389708 11.7614 0.238642C11.6103 0.0875764 11.4059 0.0018872 11.1923 3.08006e-05C10.9787 -0.0018256 10.7729 0.080299 10.6192 0.228717L6.01001 4.8379L1.40083 0.228717C1.24647 0.0839679 1.04185 0.00495163 0.83027 0.00838737C0.618687 0.0118231 0.416741 0.0974415 0.267163 0.247126C0.117584 0.39681 0.0321085 0.598817 0.0288224 0.810402C0.0255364 1.02199 0.104697 1.22655 0.249556 1.38081L4.85792 5.98999L0.248741 10.5992C0.170922 10.6743 0.108851 10.7642 0.066149 10.8636C0.0234475 10.963 0.000970864 11.07 3.07635e-05 11.1781C-0.000909337 11.2863 0.0197057 11.3936 0.0606733 11.4938C0.101641 11.5939 0.16214 11.6849 0.238642 11.7614C0.315143 11.8379 0.406114 11.8984 0.506247 11.9393C0.60638 11.9803 0.713669 12.0009 0.821854 12C0.930039 11.999 1.03695 11.9766 1.13636 11.9339C1.23577 11.8911 1.32567 11.8291 1.40083 11.7513L6.01001 7.14208Z" fill="black"/>
-                    </svg>
-                </div>
-                <div class="bannerImg">
-                    <img src="img/perro4.webp" alt="">
-                </div>
-                <div class="content">
-                    <div class="info">
-                        <div class="part1">
-                            <img src="" alt="">
-                        </div>
-                        <div class="part2">
-                            <h4>Guauland</h4>
-                            <p>Calle Putumayo, Av La Mar 1822</p>
-                        </div>
-                    </div>
-                    <div class="info">
-                        <div class="part1">
-                            <p>Descripción</p>
-                        </div>
-                        <div class="part2">
-                            <p>Lorem ipsum dolor sit amet consectetur. Gravida id feugiat eget eu semper vestibulum sit semper. Nisi vulputate tortor lorem nec ultricies auctor scelerisque euismod ultrices. Consequat commodo vulputate pretium odio vehicula.</p>
-                        </div>
-                    </div>
-                    <div class="info">
-                        <div class="part1">
-                            <p>Horario de apertura</p>
-                        </div>
-                        <div class="part2">
-                            <p>Abierto 24 horas: <br> Lun,Mar, Mie, Ju, Vie, Sab, Dom</p>
-                        </div>
-                    </div>
-                    <div class="info redes">
-                        <div class="part1">
-                            <p>Contacto</p>
-                        </div>
-                        <div class="part2">
-                            <p><img src="" alt=""> 51 998220352</p>
-                            <p><img src="" alt=""> 51 998220352</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <section class="bannerContacto">
+        <div class="fondo">
+          <img src="img/patas2.webp" alt="" />
         </div>
-    </main>
-    <footer>
+      </section>
+      <section class="pageInterna">
         <div class="container">
+          <a href="index.html" class="regresar"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="8"
+              height="13"
+              viewBox="0 0 8 13"
+              fill="none"
+            >
+              <path
+                d="M7.09 1L1 6.75L7.09 12.5"
+                stroke="black"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              /></svg
+            >Regresar
+          </a>
+          <div class="title">
             <div class="part1">
-                <h2>Suscríbete al newsletter</h2>
-                <p>¡Te prometemos contenido valioso que hará la vida de tu amigo peludo aún más feliz y saludable!</p>
-                <div class="formulario2">
-                    <form action="">
-                        <div class="contentInput">
-                            <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico">
-                            <button type="submit">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
-                                    <circle cx="15.5" cy="15.5" r="15.5" fill="#FF773B"/>
-                                    <path d="M17.1552 21.7402L23.2949 15.0074L17.1552 8.27472C17.0998 8.19528 17.0293 8.12977 16.9486 8.08262C16.8679 8.03546 16.7789 8.00777 16.6876 8.00141C16.5962 7.99506 16.5047 8.01018 16.4192 8.04577C16.3337 8.08135 16.2562 8.13657 16.1919 8.20767C16.1277 8.27877 16.0782 8.36411 16.0468 8.4579C16.0154 8.55169 16.0028 8.65174 16.01 8.75128C16.0171 8.85082 16.0437 8.94753 16.0881 9.03486C16.1325 9.12219 16.1935 9.19809 16.2671 9.25744L20.8608 14.3105L8.63881 14.3105C8.46937 14.3105 8.30686 14.3839 8.18705 14.5146C8.06723 14.6453 7.99992 14.8226 7.99992 15.0074C7.99992 15.1923 8.06723 15.3696 8.18705 15.5003C8.30686 15.631 8.46937 15.7044 8.63881 15.7044L20.8608 15.7044L16.2671 20.7574C16.1477 20.8887 16.0809 21.0663 16.0815 21.2513C16.0821 21.4362 16.15 21.6133 16.2703 21.7437C16.3906 21.874 16.5535 21.9468 16.723 21.9462C16.8926 21.9455 17.0549 21.8714 17.1744 21.7402L17.1552 21.7402Z" fill="white"/>
-                                </svg>
-                            </button>
-                        </div>
-                    </form>
+              <h1>Veterinarias</h1>
+              <p>Lorem ipsum dolor sit amet consectetur. Neque ut ac sed.</p>
+              <div class="filtros">
+                <div class="buscador">
+                  <input
+                    type="text"
+                    name="buscador"
+                    id="buscador"
+                    placeholder="Busca por distrito o provincia"
+                  />
+                  <button>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="19"
+                      height="20"
+                      viewBox="0 0 19 20"
+                      fill="none"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M14.5024 11.9261C15.4896 10.6534 15.9548 9.0524 15.8035 7.44883C15.6521 5.84525 14.8956 4.35955 13.6877 3.294C12.4798 2.22844 10.9114 1.66305 9.30147 1.71287C7.69154 1.76269 6.16105 2.42397 5.02138 3.56217C3.88071 4.70116 3.21727 6.23224 3.16626 7.84339C3.11525 9.45455 3.68051 11.0245 4.74685 12.2334C5.81318 13.4423 7.30034 14.199 8.90527 14.3495C10.5102 14.4999 12.1121 14.0328 13.3845 13.0432L13.4186 13.0788L16.7768 16.4378C16.8504 16.5114 16.9377 16.5697 17.0338 16.6095C17.1299 16.6494 17.2329 16.6698 17.3369 16.6698C17.441 16.6698 17.544 16.6494 17.6401 16.6095C17.7362 16.5697 17.8235 16.5114 17.897 16.4378C17.9706 16.3643 18.0289 16.277 18.0687 16.1809C18.1086 16.0848 18.129 15.9818 18.129 15.8777C18.129 15.7737 18.1086 15.6707 18.0687 15.5746C18.0289 15.4785 17.9706 15.3912 17.897 15.3176L14.538 11.9594C14.5264 11.948 14.5146 11.9369 14.5024 11.9261ZM12.8589 4.68238C13.3059 5.12213 13.6613 5.64603 13.9048 6.22386C14.1483 6.80169 14.275 7.42201 14.2775 8.04903C14.2801 8.67606 14.1585 9.29739 13.9197 9.87718C13.6809 10.457 13.3297 10.9838 12.8863 11.4271C12.443 11.8705 11.9162 12.2217 11.3364 12.4605C10.7566 12.6993 10.1353 12.8209 9.50824 12.8183C8.88121 12.8158 8.26089 12.6891 7.68307 12.4456C7.10524 12.2021 6.58134 11.8466 6.14158 11.3997C5.26277 10.5064 4.77252 9.3021 4.77762 8.04903C4.78272 6.79597 5.28276 5.59568 6.16882 4.70962C7.05488 3.82356 8.25517 3.32352 9.50824 3.31841C10.7613 3.31331 11.9656 3.80356 12.8589 4.68238Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </button>
                 </div>
-                <div class="redes">
-                    <p>Síguenos</p>
-                    <div class="iconos">
-                        <a href="#"><img src="img/icon-facebbok.svg" alt=""></a>
-                        <a href="#"><img src="img/icon-instagram.svg" alt=""></a>
-                        <a href="#"><img src="img/icon-tiktok.svg" alt=""></a>
-                    </div>
+                <div>
+                  <select name="Distrito" id="Distrito">
+                    <option value="Distrito">Distrito</option>
+                    <option value="San Miguel">San Miguel</option>
+                    <option value="San Miguel">Miraflores</option>
+                  </select>
                 </div>
+                <div>
+                  <select name="Provincia" id="Provincia">
+                    <option value="Provincia">Provincia</option>
+                    <option value="Lima">Lima</option>
+                    <option value="Lurin">Lurin</option>
+                  </select>
+                </div>
+              </div>
             </div>
             <div class="part2">
-                <a href="index.html"><img src="img/logo.svg" alt=""></a>
+              <img src="img/perro3.webp" alt="" />
             </div>
-            <div class="part3">
-                <div class="part1-3">
-                    <p>Blog</p>
-                    <ul>
-                        <li><a href="cuidado.html">Cuidado</a></li>
-                        <li><a href="">Entretenimeinto</a></li>
-                        <li><a href="">Recetas</a></li>
-                        <li><a href="">Actividades</a></li>
-                        <li><a href="">Destinos petfriendly</a></li>
-                    </ul>
-                </div>
-                <div class="part2-3">
-                    <p>Mascotas Club del Perú</p>
-                    <ul>
-                        <li><a href="nosotros.html">Nosotros</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
-                        <li><a href="politicas-de-privacidad.html">Política de privacidad</a></li>
-                        <li><a href="terminos-y-condiciones.html">Términos y condiciones</a></li>
-                      </ul>
-                </div>
+          </div>
+          <div class="Items">
+            <div class="item">
+              <span class="distrito">San Miguel</span>
+              <div class="contentImg">
+                <img src="img/fotoveterinaria.webp" alt="" />
+              </div>
+              <h3>Guauland</h3>
+              <div class="content">
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="9"
+                    height="12"
+                    viewBox="0 0 9 12"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z"
+                      fill="#C8783D"
+                    />
+                  </svg>
+                  Calle Putumayo, Av La Mar 1822
+                </p>
+                <button>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                  >
+                    <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z"
+                      fill="#FF773B"
+                    ></path>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 8"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
             </div>
+            <div class="item">
+              <span class="distrito">San Miguel</span>
+              <div class="contentImg">
+                <img src="img/fotoveterinaria.webp" alt="" />
+              </div>
+              <h3>Guauland</h3>
+              <div class="content">
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="9"
+                    height="12"
+                    viewBox="0 0 9 12"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z"
+                      fill="#C8783D"
+                    />
+                  </svg>
+                  Calle Putumayo, Av La Mar 1822
+                </p>
+                <a href=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                  >
+                    <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z"
+                      fill="#FF773B"
+                    ></path>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 8"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <span class="distrito">San Miguel</span>
+              <div class="contentImg">
+                <img src="img/fotoveterinaria.webp" alt="" />
+              </div>
+              <h3>Guauland</h3>
+              <div class="content">
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="9"
+                    height="12"
+                    viewBox="0 0 9 12"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z"
+                      fill="#C8783D"
+                    />
+                  </svg>
+                  Calle Putumayo, Av La Mar 1822
+                </p>
+                <a href=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                  >
+                    <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z"
+                      fill="#FF773B"
+                    ></path>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 8"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <span class="distrito">San Miguel</span>
+              <div class="contentImg">
+                <img src="img/fotoveterinaria.webp" alt="" />
+              </div>
+              <h3>Guauland</h3>
+              <div class="content">
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="9"
+                    height="12"
+                    viewBox="0 0 9 12"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z"
+                      fill="#C8783D"
+                    />
+                  </svg>
+                  Calle Putumayo, Av La Mar 1822
+                </p>
+                <a href=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                  >
+                    <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z"
+                      fill="#FF773B"
+                    ></path>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 8"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <span class="distrito">San Miguel</span>
+              <div class="contentImg">
+                <img src="img/fotoveterinaria.webp" alt="" />
+              </div>
+              <h3>Guauland</h3>
+              <div class="content">
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="9"
+                    height="12"
+                    viewBox="0 0 9 12"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z"
+                      fill="#C8783D"
+                    />
+                  </svg>
+                  Calle Putumayo, Av La Mar 1822
+                </p>
+                <a href=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                  >
+                    <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z"
+                      fill="#FF773B"
+                    ></path>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 8"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <span class="distrito">San Miguel</span>
+              <div class="contentImg">
+                <img src="img/fotoveterinaria.webp" alt="" />
+              </div>
+              <h3>Guauland</h3>
+              <div class="content">
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="9"
+                    height="12"
+                    viewBox="0 0 9 12"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z"
+                      fill="#C8783D"
+                    />
+                  </svg>
+                  Calle Putumayo, Av La Mar 1822
+                </p>
+                <a href=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                  >
+                    <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z"
+                      fill="#FF773B"
+                    ></path>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 8"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <span class="distrito">San Miguel</span>
+              <div class="contentImg">
+                <img src="img/fotoveterinaria.webp" alt="" />
+              </div>
+              <h3>Guauland</h3>
+              <div class="content">
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="9"
+                    height="12"
+                    viewBox="0 0 9 12"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z"
+                      fill="#C8783D"
+                    />
+                  </svg>
+                  Calle Putumayo, Av La Mar 1822
+                </p>
+                <a href=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                  >
+                    <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z"
+                      fill="#FF773B"
+                    ></path>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 8"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <span class="distrito">San Miguel</span>
+              <div class="contentImg">
+                <img src="img/fotoveterinaria.webp" alt="" />
+              </div>
+              <h3>Guauland</h3>
+              <div class="content">
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="9"
+                    height="12"
+                    viewBox="0 0 9 12"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z"
+                      fill="#C8783D"
+                    />
+                  </svg>
+                  Calle Putumayo, Av La Mar 1822
+                </p>
+                <a href=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                  >
+                    <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z"
+                      fill="#FF773B"
+                    ></path>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 8"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="item">
+              <span class="distrito">San Miguel</span>
+              <div class="contentImg">
+                <img src="img/fotoveterinaria.webp" alt="" />
+              </div>
+              <h3>Guauland</h3>
+              <div class="content">
+                <p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="9"
+                    height="12"
+                    viewBox="0 0 9 12"
+                    fill="none"
+                  >
+                    <path
+                      d="M4.5 2.7C4.92624 2.7 5.33502 2.85804 5.63642 3.13934C5.93782 3.42064 6.10714 3.80218 6.10714 4.2C6.10714 4.39698 6.06557 4.59204 5.98481 4.77403C5.90404 4.95601 5.78566 5.12137 5.63642 5.26066C5.48718 5.39995 5.31001 5.51044 5.11503 5.58582C4.92004 5.6612 4.71105 5.7 4.5 5.7C4.07376 5.7 3.66498 5.54197 3.36358 5.26066C3.06218 4.97936 2.89286 4.59783 2.89286 4.2C2.89286 3.80218 3.06218 3.42064 3.36358 3.13934C3.66498 2.85804 4.07376 2.7 4.5 2.7ZM4.5 0C5.69347 0 6.83807 0.442499 7.68198 1.23015C8.52589 2.0178 9 3.08609 9 4.2C9 7.35 4.5 12 4.5 12C4.5 12 0 7.35 0 4.2C0 3.08609 0.474106 2.0178 1.31802 1.23015C2.16193 0.442499 3.30653 0 4.5 0ZM4.5 1.2C3.64752 1.2 2.82995 1.51607 2.22716 2.07868C1.62436 2.64129 1.28571 3.40435 1.28571 4.2C1.28571 4.8 1.28571 6 4.5 10.026C7.71429 6 7.71429 4.8 7.71429 4.2C7.71429 3.40435 7.37564 2.64129 6.77284 2.07868C6.17005 1.51607 5.35248 1.2 4.5 1.2Z"
+                      fill="#C8783D"
+                    />
+                  </svg>
+                  Calle Putumayo, Av La Mar 1822
+                </p>
+                <a href=""
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                  >
+                    <circle cx="14" cy="14" r="14" fill="#FF773B"></circle>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 19.5ZM11.0001 8L17.0901 13.75L11.0001 8Z"
+                      fill="#FF773B"
+                    ></path>
+                    <path
+                      d="M11.0001 19.5L17.0901 13.75L11.0001 8"
+                      stroke="white"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <button class="naranja" id="cargarMasModulo">Ver más</button>
         </div>
-        <div class="container pie">
-            <p>Mascotas Club del Perú - ©2024 Todos lo derechos reservados </p>
-            <p>Made with <svg class="corazon" xmlns="http://www.w3.org/2000/svg" width="9" height="8" viewBox="0 0 9 8" fill="none">
-                <path d="M4.50024 7.75C4.36224 7.74984 4.22749 7.71194 4.11352 7.64121C2.42506 6.59922 1.69395 5.88477 1.29069 5.43809C0.431313 4.48594 0.019887 3.5084 0.0314886 2.4498C0.0450237 1.23672 1.11559 0.25 2.41797 0.25C3.365 0.25 4.02092 0.734961 4.40291 1.13887C4.41501 1.15153 4.42997 1.16169 4.44676 1.16865C4.46355 1.17561 4.48178 1.17921 4.50024 1.17921C4.51869 1.17921 4.53693 1.17561 4.55372 1.16865C4.57051 1.16169 4.58546 1.15153 4.59756 1.13887C4.97955 0.73457 5.63547 0.25 6.5825 0.25C7.88489 0.25 8.95545 1.23672 8.96899 2.45C8.98059 3.50879 8.56873 4.48633 7.70979 5.43828C7.30653 5.88496 6.57541 6.59941 4.88696 7.64141C4.77296 7.71206 4.63821 7.7499 4.50024 7.75Z" fill="white"/>
-                </svg> <svg class="logonerd" xmlns="http://www.w3.org/2000/svg" width="50" height="12" viewBox="0 0 50 12" fill="none">
-                    <path d="M7.72262 5.97619H7.64382L5.26661 0.725329C5.20095 0.560812 5.04334 0.464844 4.8726 0.464844H0.433411C0.197004 0.464844 0 0.670491 0 0.917268V10.7746C0 11.0214 0.197004 11.227 0.433411 11.227H3.6249C3.86131 11.227 4.05832 11.0214 4.05832 10.7746V5.67457H4.13712L6.68506 10.9803C6.76386 11.1311 6.90833 11.227 7.06593 11.227H11.3475C11.5839 11.227 11.7809 11.0214 11.7809 10.7746V0.917268C11.7809 0.670491 11.5839 0.464844 11.3475 0.464844H8.15603C7.91962 0.464844 7.72262 0.670491 7.72262 0.917268V5.97619Z" fill="white"/>
-                    <path d="M17.507 6.51083H23.207C23.3515 6.51083 23.4565 6.38744 23.4565 6.25034V5.45517C23.4565 5.30437 23.3383 5.19469 23.207 5.19469H17.507V3.6729H23.4697C23.7061 3.6729 23.9031 3.46725 23.9031 3.22048V0.930938C23.9031 0.684161 23.7061 0.478516 23.4697 0.478516H13.5406C13.3042 0.478516 13.1072 0.684161 13.1072 0.930938V10.802C13.1072 11.0488 13.3042 11.2407 13.5275 11.2407H23.5222C23.7586 11.2407 23.9556 11.0351 23.9556 10.7883V8.63585C23.9556 8.38908 23.7586 8.18343 23.5222 8.18343H17.4938V6.51083H17.507Z" fill="white"/>
-                    <path d="M37.09 4.7286C37.09 0.985817 35.0412 0.464844 32.3225 0.464844H25.7425C25.5061 0.464844 25.3091 0.670491 25.3091 0.917268V10.7746C25.3091 11.0214 25.5061 11.227 25.7425 11.227H29.2755C29.5119 11.227 29.7089 11.0214 29.7089 10.7746V8.86895H30.4575C30.6939 10.048 31.6001 10.9666 32.7559 11.1722C32.8872 11.1996 33.0317 11.227 33.1893 11.227H36.6697C36.9061 11.227 37.1032 11.0214 37.1032 10.7746V8.86895C37.1032 8.62218 36.9061 8.41653 36.6697 8.41653H35.2513C36.4333 7.90927 37.09 6.85362 37.09 4.7286ZM29.6957 3.63181H31.6789C32.1649 3.63181 32.572 4.02939 32.6114 4.53666C32.7034 5.7157 32.3488 6.11328 31.3769 6.1407H29.6957V3.63181Z" fill="white"/>
-                    <path d="M50 5.78425C50 1.87695 48.1875 0.464844 44.6808 0.464844H38.8626C38.6262 0.464844 38.4292 0.670491 38.4292 0.917268V10.7198C38.4292 11.0077 38.6525 11.227 38.9152 11.227H44.6808C48.2007 11.227 50 9.81493 50 5.90764C50 5.88022 50 5.86651 50 5.8528C50 5.82538 50 5.81167 50 5.78425ZM43.9322 7.92298H42.7502V6.71652V3.76891H43.9322C45.2456 3.76891 45.5871 4.52295 45.6002 5.83909C45.5871 7.18265 45.2456 7.92298 43.9322 7.92298Z" fill="white"/>
-                    </svg></p>
+      </section>
+      <div class="infocard">
+        <div class="card">
+          <div class="close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              viewBox="0 0 12 12"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M6.01001 7.14208L10.6192 11.7513C10.7729 11.8997 10.9787 11.9818 11.1923 11.9799C11.4059 11.9781 11.6103 11.8924 11.7614 11.7413C11.9124 11.5903 11.9981 11.3859 12 11.1723C12.0018 10.9586 11.9197 10.7528 11.7713 10.5992L7.1621 5.98999L11.7713 1.38081C11.9197 1.22714 12.0018 1.02133 12 0.807695C11.9981 0.594064 11.9124 0.389708 11.7614 0.238642C11.6103 0.0875764 11.4059 0.0018872 11.1923 3.08006e-05C10.9787 -0.0018256 10.7729 0.080299 10.6192 0.228717L6.01001 4.8379L1.40083 0.228717C1.24647 0.0839679 1.04185 0.00495163 0.83027 0.00838737C0.618687 0.0118231 0.416741 0.0974415 0.267163 0.247126C0.117584 0.39681 0.0321085 0.598817 0.0288224 0.810402C0.0255364 1.02199 0.104697 1.22655 0.249556 1.38081L4.85792 5.98999L0.248741 10.5992C0.170922 10.6743 0.108851 10.7642 0.066149 10.8636C0.0234475 10.963 0.000970864 11.07 3.07635e-05 11.1781C-0.000909337 11.2863 0.0197057 11.3936 0.0606733 11.4938C0.101641 11.5939 0.16214 11.6849 0.238642 11.7614C0.315143 11.8379 0.406114 11.8984 0.506247 11.9393C0.60638 11.9803 0.713669 12.0009 0.821854 12C0.930039 11.999 1.03695 11.9766 1.13636 11.9339C1.23577 11.8911 1.32567 11.8291 1.40083 11.7513L6.01001 7.14208Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+          <div class="bannerImg">
+            <img src="img/perro4.webp" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <div class="part1">
+                <img src="" alt="" />
+              </div>
+              <div class="part2">
+                <h4>Guauland</h4>
+                <p>Calle Putumayo, Av La Mar 1822</p>
+              </div>
+            </div>
+            <div class="info">
+              <div class="part1">
+                <p>Descripción</p>
+              </div>
+              <div class="part2">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Gravida id feugiat
+                  eget eu semper vestibulum sit semper. Nisi vulputate tortor
+                  lorem nec ultricies auctor scelerisque euismod ultrices.
+                  Consequat commodo vulputate pretium odio vehicula.
+                </p>
+              </div>
+            </div>
+            <div class="info">
+              <div class="part1">
+                <p>Horario de apertura</p>
+              </div>
+              <div class="part2">
+                <p>
+                  Abierto 24 horas: <br />
+                  Lun,Mar, Mie, Ju, Vie, Sab, Dom
+                </p>
+              </div>
+            </div>
+            <div class="info redes">
+              <div class="part1">
+                <p>Contacto</p>
+              </div>
+              <div class="part2">
+                <p><img src="" alt="" /> 51 998220352</p>
+                <p><img src="" alt="" /> 51 998220352</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="part1">
+          <h2>Suscríbete al newsletter</h2>
+          <p>
+            ¡Te prometemos contenido valioso que hará la vida de tu amigo peludo
+            aún más feliz y saludable!
+          </p>
+          <div class="formulario2">
+            <form action="">
+              <div class="contentInput">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Ingresa tu correo electrónico"
+                />
+                <button type="submit">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="31"
+                    height="31"
+                    viewBox="0 0 31 31"
+                    fill="none"
+                  >
+                    <circle cx="15.5" cy="15.5" r="15.5" fill="#FF773B" />
+                    <path
+                      d="M17.1552 21.7402L23.2949 15.0074L17.1552 8.27472C17.0998 8.19528 17.0293 8.12977 16.9486 8.08262C16.8679 8.03546 16.7789 8.00777 16.6876 8.00141C16.5962 7.99506 16.5047 8.01018 16.4192 8.04577C16.3337 8.08135 16.2562 8.13657 16.1919 8.20767C16.1277 8.27877 16.0782 8.36411 16.0468 8.4579C16.0154 8.55169 16.0028 8.65174 16.01 8.75128C16.0171 8.85082 16.0437 8.94753 16.0881 9.03486C16.1325 9.12219 16.1935 9.19809 16.2671 9.25744L20.8608 14.3105L8.63881 14.3105C8.46937 14.3105 8.30686 14.3839 8.18705 14.5146C8.06723 14.6453 7.99992 14.8226 7.99992 15.0074C7.99992 15.1923 8.06723 15.3696 8.18705 15.5003C8.30686 15.631 8.46937 15.7044 8.63881 15.7044L20.8608 15.7044L16.2671 20.7574C16.1477 20.8887 16.0809 21.0663 16.0815 21.2513C16.0821 21.4362 16.15 21.6133 16.2703 21.7437C16.3906 21.874 16.5535 21.9468 16.723 21.9462C16.8926 21.9455 17.0549 21.8714 17.1744 21.7402L17.1552 21.7402Z"
+                      fill="white"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="redes">
+            <p>Síguenos</p>
+            <div class="iconos">
+              <a href="#"><img src="img/icon-facebbok.svg" alt="" /></a>
+              <a href="#"><img src="img/icon-instagram.svg" alt="" /></a>
+              <a href="#"><img src="img/icon-tiktok.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="part2">
+          <a href="index.html"><img src="img/logo.svg" alt="" /></a>
+        </div>
+        <div class="part3">
+          <div class="part1-3">
+            <p>Blog</p>
+            <ul>
+              <li><a href="cuidado.html">Cuidado</a></li>
+              <li><a href="">Entretenimeinto</a></li>
+              <li><a href="">Recetas</a></li>
+              <li><a href="">Actividades</a></li>
+              <li><a href="">Destinos petfriendly</a></li>
+            </ul>
+          </div>
+          <div class="part2-3">
+            <p>Mascotas Club del Perú</p>
+            <ul>
+              <li><a href="nosotros.html">Nosotros</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+              <li>
+                <a href="politicas-de-privacidad.html"
+                  >Política de privacidad</a
+                >
+              </li>
+              <li>
+                <a href="terminos-y-condiciones.html">Términos y condiciones</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container pie">
+        <p>Mascotas Club del Perú - ©2024 Todos lo derechos reservados</p>
+        <p>
+          Made with
+          <svg
+            class="corazon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="9"
+            height="8"
+            viewBox="0 0 9 8"
+            fill="none"
+          >
+            <path
+              d="M4.50024 7.75C4.36224 7.74984 4.22749 7.71194 4.11352 7.64121C2.42506 6.59922 1.69395 5.88477 1.29069 5.43809C0.431313 4.48594 0.019887 3.5084 0.0314886 2.4498C0.0450237 1.23672 1.11559 0.25 2.41797 0.25C3.365 0.25 4.02092 0.734961 4.40291 1.13887C4.41501 1.15153 4.42997 1.16169 4.44676 1.16865C4.46355 1.17561 4.48178 1.17921 4.50024 1.17921C4.51869 1.17921 4.53693 1.17561 4.55372 1.16865C4.57051 1.16169 4.58546 1.15153 4.59756 1.13887C4.97955 0.73457 5.63547 0.25 6.5825 0.25C7.88489 0.25 8.95545 1.23672 8.96899 2.45C8.98059 3.50879 8.56873 4.48633 7.70979 5.43828C7.30653 5.88496 6.57541 6.59941 4.88696 7.64141C4.77296 7.71206 4.63821 7.7499 4.50024 7.75Z"
+              fill="white"
+            />
+          </svg>
+          <svg
+            class="logonerd"
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="12"
+            viewBox="0 0 50 12"
+            fill="none"
+          >
+            <path
+              d="M7.72262 5.97619H7.64382L5.26661 0.725329C5.20095 0.560812 5.04334 0.464844 4.8726 0.464844H0.433411C0.197004 0.464844 0 0.670491 0 0.917268V10.7746C0 11.0214 0.197004 11.227 0.433411 11.227H3.6249C3.86131 11.227 4.05832 11.0214 4.05832 10.7746V5.67457H4.13712L6.68506 10.9803C6.76386 11.1311 6.90833 11.227 7.06593 11.227H11.3475C11.5839 11.227 11.7809 11.0214 11.7809 10.7746V0.917268C11.7809 0.670491 11.5839 0.464844 11.3475 0.464844H8.15603C7.91962 0.464844 7.72262 0.670491 7.72262 0.917268V5.97619Z"
+              fill="white"
+            />
+            <path
+              d="M17.507 6.51083H23.207C23.3515 6.51083 23.4565 6.38744 23.4565 6.25034V5.45517C23.4565 5.30437 23.3383 5.19469 23.207 5.19469H17.507V3.6729H23.4697C23.7061 3.6729 23.9031 3.46725 23.9031 3.22048V0.930938C23.9031 0.684161 23.7061 0.478516 23.4697 0.478516H13.5406C13.3042 0.478516 13.1072 0.684161 13.1072 0.930938V10.802C13.1072 11.0488 13.3042 11.2407 13.5275 11.2407H23.5222C23.7586 11.2407 23.9556 11.0351 23.9556 10.7883V8.63585C23.9556 8.38908 23.7586 8.18343 23.5222 8.18343H17.4938V6.51083H17.507Z"
+              fill="white"
+            />
+            <path
+              d="M37.09 4.7286C37.09 0.985817 35.0412 0.464844 32.3225 0.464844H25.7425C25.5061 0.464844 25.3091 0.670491 25.3091 0.917268V10.7746C25.3091 11.0214 25.5061 11.227 25.7425 11.227H29.2755C29.5119 11.227 29.7089 11.0214 29.7089 10.7746V8.86895H30.4575C30.6939 10.048 31.6001 10.9666 32.7559 11.1722C32.8872 11.1996 33.0317 11.227 33.1893 11.227H36.6697C36.9061 11.227 37.1032 11.0214 37.1032 10.7746V8.86895C37.1032 8.62218 36.9061 8.41653 36.6697 8.41653H35.2513C36.4333 7.90927 37.09 6.85362 37.09 4.7286ZM29.6957 3.63181H31.6789C32.1649 3.63181 32.572 4.02939 32.6114 4.53666C32.7034 5.7157 32.3488 6.11328 31.3769 6.1407H29.6957V3.63181Z"
+              fill="white"
+            />
+            <path
+              d="M50 5.78425C50 1.87695 48.1875 0.464844 44.6808 0.464844H38.8626C38.6262 0.464844 38.4292 0.670491 38.4292 0.917268V10.7198C38.4292 11.0077 38.6525 11.227 38.9152 11.227H44.6808C48.2007 11.227 50 9.81493 50 5.90764C50 5.88022 50 5.86651 50 5.8528C50 5.82538 50 5.81167 50 5.78425ZM43.9322 7.92298H42.7502V6.71652V3.76891H43.9322C45.2456 3.76891 45.5871 4.52295 45.6002 5.83909C45.5871 7.18265 45.2456 7.92298 43.9322 7.92298Z"
+              fill="white"
+            />
+          </svg>
+        </p>
+      </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/jquery.marquee.js"></script>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
