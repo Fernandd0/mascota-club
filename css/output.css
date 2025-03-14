@@ -974,6 +974,14 @@ video {
   margin-top: 95px;
 }
 
+.\!mt-0 {
+  margin-top: 0px !important;
+}
+
+.\!mt-1 {
+  margin-top: 0.25rem !important;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -1226,6 +1234,22 @@ video {
   width: 100%;
 }
 
+.w-\[50px\] {
+  width: 50px;
+}
+
+.w-\[80px\] {
+  width: 80px;
+}
+
+.w-\[65px\] {
+  width: 65px;
+}
+
+.w-\[75px\] {
+  width: 75px;
+}
+
 .min-w-\[45\%\] {
   min-width: 45%;
 }
@@ -1367,6 +1391,36 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.rotate-6 {
+  --tw-rotate: 6deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-rotate-6 {
+  --tw-rotate: -6deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[-10deg\] {
+  --tw-rotate: -10deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[-25deg\] {
+  --tw-rotate: -25deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[-15deg\] {
+  --tw-rotate: -15deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-\[10deg\] {
+  --tw-rotate: 10deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .scale-100 {
   --tw-scale-x: 1;
   --tw-scale-y: 1;
@@ -1441,6 +1495,10 @@ video {
   justify-content: space-between;
 }
 
+.\!justify-between {
+  justify-content: space-between !important;
+}
+
 .gap-1 {
   gap: 0.25rem;
 }
@@ -1487,6 +1545,10 @@ video {
 
 .gap-\[4px\] {
   gap: 4px;
+}
+
+.\!gap-2 {
+  gap: 0.5rem !important;
 }
 
 .gap-x-6 {
@@ -2118,6 +2180,10 @@ video {
 
 .pt-\[50px\] {
   padding-top: 50px;
+}
+
+.\!pt-0 {
+  padding-top: 0px !important;
 }
 
 .text-left {
