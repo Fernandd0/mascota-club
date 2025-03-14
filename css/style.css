@@ -12,6 +12,9 @@
   --fuente-Bree: "Bree Serif", serif;
   --fuent-inter: "Inter", sans-serif;
 }
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
 body {
   background-color: #fffbf5;
 }
